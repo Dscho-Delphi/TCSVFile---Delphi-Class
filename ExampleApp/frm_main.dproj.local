@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.288,=D:\Projekte\Delphi\CSV_CR_Class\cscsv_785.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.891,C:\Users\teitg\Documents\Embarcadero\Studio\Projekte\Unit9.pas=D:\Projekte\Delphi\CSV_CR_Class\CSVTest.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.076,=C:\Users\teitg\Documents\Embarcadero\Studio\Projekte\Unit9.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.690,D:\Projekte\Delphi\CSV_CR_Class\Unit1.pas=D:\Projekte\Delphi\CSV_CR_Class\CSV_CR_Class.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.808,=D:\Projekte\Delphi\CSV_CR_Class\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.731,D:\Projekte\Delphi\CSV_CR_Class\cscsv_785.pas=D:\Projekte\Delphi\CSV_CR_Class\cscsv.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.433,C:\Users\teitg\Documents\Embarcadero\Studio\Projekte\Project9.dproj=D:\Projekte\Delphi\CSV_CR_Class\frm_main.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.349,D:\Projekte\Delphi\CSV_CR_Class\cscsv.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.121,=D:\Projekte\Delphi\CSV_CR_Class\CSV_CR_Class.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.311,=D:\Projekte\Delphi\CSV_CR_Class\class_Frontend_Output_TStringGrid.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.027,=D:\Projekte\Delphi\CSV_CR_Class\CSVFile.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.891,C:\Users\teitg\Documents\Embarcadero\Studio\Projekte\Unit9.dfm=D:\Projekte\Delphi\CSV_CR_Class\CSVTest.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="..\..\CSV_CR_Class"/>
+    <File Path="..\CSVFile.pas"/>
+    <File Path="..\class_Frontend_Output_TStringGrid.pas"/>
+    <File Path="CSVTest.pas"/>
+    <File Path="CSVTest.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

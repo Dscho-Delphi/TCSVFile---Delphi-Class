@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>TCSVFile: CSVFile: Klasse TFrontend_Output_Base</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="PasDoc 0.16.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<div class="container"><div class="navigation">
+<h2><a href="index.html">TCSVFile</a></h2><ul><li><a href="AllUnits.html">Units</a></li><li><a href="ClassHierarchy.html">Klassenhierarchie</a></li><li><a href="AllClasses.html">Klassen, Interfaces und Objects</a></li><li><a href="AllTypes.html">Datentypen</a></li><li><a href="AllVariables.html">Variablen</a></li><li><a href="AllConstants.html">Konstanten</a></li><li><a href="AllFunctions.html">Funktionen und Prozeduren</a></li><li><a href="AllIdentifiers.html">Bezeichner</a></li><li><form class="search-form" action="tipue_results.html"><div class="search-input"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required><div class="search-button"><input type="button" id="tipue_search_button" onclick="this.form.submit();"></div></div></form>
+<div style="clear: both"></div>
+</li></ul></div><div class="content">
+<span id="TFrontend_Output_Base"></span><h1 class="cio">Klasse TFrontend_Output_Base</h1>
+<div class="sections">
+<div class="one_section"><a class="section" href="#PasDoc-Description">Beschreibung</a></div><div class="one_section"><a class="section" href="#PasDoc-Hierarchy">Hierarchie</a></div><div class="one_section"><a class="section" href="#PasDoc-Fields">Felder</a></div><div class="one_section"><a class="section" href="#PasDoc-Methods">Methoden</a></div><div class="one_section"><a class="section" href="#PasDoc-Properties">Eigenschaften</a></div></div>
+<span id="PasDoc-Description"></span><h2 class="unit">Unit</h2>
+<p class="unitlink">
+<a href="CSVFile.html">CSVFile</a></p>
+<h2 class="declaration">Deklaration</h2>
+<p class="declaration">
+<code>type TFrontend_Output_Base = class(TObject)</code></p>
+<h2 class="description">Beschreibung</h2>
+<p>
+TFrontend_Output_Base ist eine abstrakte Basisklasse, die als Fundament für die Entwicklung von spezifischen Ausgabe-Komponenten dient, die mit CSV-Dateien interagieren. Diese Klasse stellt grundlegende Methoden und Eigenschaften zur Verfügung, die für die Initialisierung, das Zurücksetzen, die Aktualisierung der Ausgabe sowie die Sortierung und Fokussierung auf spezifische Zellen erforderlich sind.
+
+<p>Abgeleitete Klassen, die diese Basisklasse verwenden, müssen die abstrakten Methoden `Initialize`, `Clear`, `Update`, `UpdateCell` und `SelectFocus` implementieren, um die spezifischen Logiken für die jeweilige Ausgabeform (z.B. XML, JSON, Excel, etc.) bereitzustellen. Die Klasse ermöglicht so eine Erweiterbarkeit durch Vererbung, um neue Ausgabeformate hinzuzufügen, die nahtlos mit der CSV-Datenstruktur zusammenarbeiten.
+
+<p><strong>Beispiel:</strong><br> Ein Beispiel für eine abgeleitete Klasse im selben Verzeichnis könnte `TFrontend_Output_TStringGrid` sein, die diese Methoden implementiert, um CSV-Daten in einemn TStringrid anzuzeigen und weiter zu bearbeiten.
+
+<p> @version 1.0 </p>
+<span id="PasDoc-Hierarchy"></span><h2 class="hierarchy">Hierarchie</h2>
+<ul class="hierarchy"><li class="ancestor">TObject</li>
+<li class="thisitem">TFrontend_Output_Base</li></ul><h2 class="overview">Übersicht</h2>
+<span id="PasDoc-Fields"></span><h3 class="summary">Felder</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TFrontend_Output_Base.html#FAutoAutput">FAutoAutput</a></strong>: Boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TFrontend_Output_Base.html#FCSVFile">FCSVFile</a></strong>: <a href="CSVFile.TCSVFile.html">TCSVFile</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TFrontend_Output_Base.html#FSort">FSort</a></strong>: Boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TFrontend_Output_Base.html#FSortDirection">FSortDirection</a></strong>: <a href="CSVFile.html#TCSVSortDirection">TCSVSortDirection</a>;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Methods"></span><h3 class="summary">Methoden</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <strong><a href="CSVFile.TFrontend_Output_Base.html#Create">Create</a></strong>(ACSVFile: <a href="CSVFile.TCSVFile.html">TCSVFile</a>); virtual;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TFrontend_Output_Base.html#Clear">Clear</a></strong>; virtual; abstract;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TFrontend_Output_Base.html#Initialize">Initialize</a></strong>; virtual; abstract;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TFrontend_Output_Base.html#SelectFocus">SelectFocus</a></strong>(ARow, ACol: Integer); virtual; abstract;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TFrontend_Output_Base.html#Update">Update</a></strong>; virtual; abstract;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TFrontend_Output_Base.html#UpdateCell">UpdateCell</a></strong>(ARow, ACol: Integer); virtual; abstract;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Properties"></span><h3 class="summary">Eigenschaften</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TFrontend_Output_Base.html#AutoOutput">AutoOutput</a></strong>: Boolean read <a href="CSVFile.TFrontend_Output_Base.html#FAutoAutput">FAutoAutput</a> write <a href="CSVFile.TFrontend_Output_Base.html#FAutoAutput">FAutoAutput</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TFrontend_Output_Base.html#CSVFile">CSVFile</a></strong>: <a href="CSVFile.TCSVFile.html">TCSVFile</a> read <a href="CSVFile.TFrontend_Output_Base.html#FCSVFile">FCSVFile</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TFrontend_Output_Base.html#Sort">Sort</a></strong>: Boolean read <a href="CSVFile.TFrontend_Output_Base.html#FSort">FSort</a> write <a href="CSVFile.TFrontend_Output_Base.html#FSort">FSort</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TFrontend_Output_Base.html#SortDirection">SortDirection</a></strong>: <a href="CSVFile.html#TCSVSortDirection">TCSVSortDirection</a> read <a href="CSVFile.TFrontend_Output_Base.html#FSortDirection">FSortDirection</a> write <a href="CSVFile.TFrontend_Output_Base.html#FSortDirection">FSortDirection</a>;</code></td>
+</tr>
+</table>
+<h2 class="description">Beschreibung</h2>
+<h3 class="detail">Felder</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FAutoAutput"></span><code><strong>FAutoAutput</strong>: Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt an, ob die automatische Ausgabe aktiviert ist</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FCSVFile"></span><code><strong>FCSVFile</strong>: <a href="CSVFile.TCSVFile.html">TCSVFile</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Referenz auf TCSVFile</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FSort"></span><code><strong>FSort</strong>: Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt an, ob die Daten sortiert werden sollen</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="protected.gif" alt="Protected" title="Protected"></a></td>
+<td class="itemcode"><span id="FSortDirection"></span><code><strong>FSortDirection</strong>: <a href="CSVFile.html#TCSVSortDirection">TCSVSortDirection</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die Sortierrichtung an: sdCSVAscending oder sdCSVDescending</p>
+</td></tr>
+</table>
+<h3 class="detail">Methoden</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Create"></span><code>constructor <strong>Create</strong>(ACSVFile: <a href="CSVFile.TCSVFile.html">TCSVFile</a>); virtual;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Konstruktor zur Initialisierung der Output-Komponente mit einer Referenz auf TCSVFile</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Clear"></span><code>procedure <strong>Clear</strong>; virtual; abstract;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Abstracte Methode zum Zurücksetzen der Komponente</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Initialize"></span><code>procedure <strong>Initialize</strong>; virtual; abstract;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Abstracte Methode zur Initialisierung der Output-Komponente</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SelectFocus"></span><code>procedure <strong>SelectFocus</strong>(ARow, ACol: Integer); virtual; abstract;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Abstracte Methode, um den Fokus auf eine Zelle in der Output-Komponente zu setzen</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Update"></span><code>procedure <strong>Update</strong>; virtual; abstract;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Abstracte Methode zur Aktualisierung der gesamten Output-Komponente</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="UpdateCell"></span><code>procedure <strong>UpdateCell</strong>(ARow, ACol: Integer); virtual; abstract;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Abstracte Methode zum Aktualisieren einer bestimmten Zelle in der Output-Komponente</p>
+</td></tr>
+</table>
+<h3 class="detail">Eigenschaften</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="AutoOutput"></span><code>property <strong>AutoOutput</strong>: Boolean read <a href="CSVFile.TFrontend_Output_Base.html#FAutoAutput">FAutoAutput</a> write <a href="CSVFile.TFrontend_Output_Base.html#FAutoAutput">FAutoAutput</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt an, ob die automatische Ausgabe aktiviert ist</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="CSVFile"></span><code>property <strong>CSVFile</strong>: <a href="CSVFile.TCSVFile.html">TCSVFile</a> read <a href="CSVFile.TFrontend_Output_Base.html#FCSVFile">FCSVFile</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Getter für die CSV-Datei, die mit der Output-Komponente verbunden ist</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Sort"></span><code>property <strong>Sort</strong>: Boolean read <a href="CSVFile.TFrontend_Output_Base.html#FSort">FSort</a> write <a href="CSVFile.TFrontend_Output_Base.html#FSort">FSort</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt an, ob die Daten sortiert werden sollen</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SortDirection"></span><code>property <strong>SortDirection</strong>: <a href="CSVFile.html#TCSVSortDirection">TCSVSortDirection</a> read <a href="CSVFile.TFrontend_Output_Base.html#FSortDirection">FSortDirection</a> write <a href="CSVFile.TFrontend_Output_Base.html#FSortDirection">FSortDirection</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die Sortierrichtung an (aufsteigend oder absteigend)</p>
+</td></tr>
+</table>
+<h2 class="authors">Autor</h2>
+<ul class="authors">
+<li>Johannes Teitge</li>
+</ul>
+<h2 class="created">Erstellt</h2>
+<p>
+12.10.2024
+</p>
+<hr><span class="appinfo"><em>Erstellt mit <a href="https://pasdoc.github.io/">PasDoc 0.16.0</a>. </em>
+</span>
+</div></div></body></html>

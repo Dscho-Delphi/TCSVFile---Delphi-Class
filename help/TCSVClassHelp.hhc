@@ -1,0 +1,1879 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<meta name="GENERATOR" content="PasDoc 0.16.0">
+</head><body>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Units">
+<param name="Local" value="AllUnits.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="class_Frontend_Output_TListView">
+<param name="Local" value="class_Frontend_Output_TListView.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Klassen">
+<param name="Local" value="class_Frontend_Output_TListView.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TFrontend_Output_TListView">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FIgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#FIgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FListView">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#FListView">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Eigenschaften">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="IgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#IgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ListView">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#ListView">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methoden">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#Initialize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Update">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#Update">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="UpdateCell">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#UpdateCell">
+</object>
+</ul>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="class_Frontend_Output_TStringGrid">
+<param name="Local" value="class_Frontend_Output_TStringGrid.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Klassen">
+<param name="Local" value="class_Frontend_Output_TStringGrid.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TFrontend_Output_TStringGrid">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FAutoSize">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FAutoSize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FAutosizeSpan">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FAutosizeSpan">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FIgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FIgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FStringGrid">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FStringGrid">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Eigenschaften">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="AutoSize">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#AutoSize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AutosizeSpan">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#AutosizeSpan">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="IgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#IgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="StringGrid">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#StringGrid">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methoden">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AutoSizeColumnsAndRows">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#AutoSizeColumnsAndRows">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Clear">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#Clear">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#Initialize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SelectFocus">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#SelectFocus">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Update">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#Update">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="UpdateCell">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#UpdateCell">
+</object>
+</ul>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="class_Frontend_Output_TStringlist">
+<param name="Local" value="class_Frontend_Output_TStringlist.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Klassen">
+<param name="Local" value="class_Frontend_Output_TStringlist.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TFrontend_Output_TStringlist">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FIgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#FIgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOutputColumn">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#FOutputColumn">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FStrings">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#FStrings">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Eigenschaften">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="IgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#IgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OutputColumn">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#OutputColumn">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Strings">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#Strings">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methoden">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#Initialize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Update">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#Update">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="UpdateCell">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#UpdateCell">
+</object>
+</ul>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="class_Frontend_Output_TVirtualTreeview">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Klassen">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TFrontend_Output_TVirtualTreeview">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FIgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#FIgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FTreeView">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#FTreeView">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Eigenschaften">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="IgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#IgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TreeView">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#TreeView">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methoden">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#Initialize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Update">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#Update">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="UpdateCell">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#UpdateCell">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TNodeData">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TNodeData.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TNodeData.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Data">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TNodeData.html#Data">
+</object>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Datentypen">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.html#@Types">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="PNodeData">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.html#PNodeData">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="CSVFile">
+<param name="Local" value="CSVFile.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Klassen">
+<param name="Local" value="CSVFile.html#@Classes">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TCellChange">
+<param name="Local" value="CSVFile.TCellChange.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="CSVFile.TCellChange.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Col">
+<param name="Local" value="CSVFile.TCellChange.html#Col">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="History">
+<param name="Local" value="CSVFile.TCellChange.html#History">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Row">
+<param name="Local" value="CSVFile.TCellChange.html#Row">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TCSVFile">
+<param name="Local" value="CSVFile.TCSVFile.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="CSVFile.TCSVFile.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FAutoselect">
+<param name="Local" value="CSVFile.TCSVFile.html#FAutoselect">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FChanges">
+<param name="Local" value="CSVFile.TCSVFile.html#FChanges">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FData">
+<param name="Local" value="CSVFile.TCSVFile.html#FData">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FEncoding">
+<param name="Local" value="CSVFile.TCSVFile.html#FEncoding">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FLastMatches">
+<param name="Local" value="CSVFile.TCSVFile.html#FLastMatches">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FLastSearchPos">
+<param name="Local" value="CSVFile.TCSVFile.html#FLastSearchPos">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FLineBreakStyle">
+<param name="Local" value="CSVFile.TCSVFile.html#FLineBreakStyle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOnAfterReadRow">
+<param name="Local" value="CSVFile.TCSVFile.html#FOnAfterReadRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOnBeforeReadCell">
+<param name="Local" value="CSVFile.TCSVFile.html#FOnBeforeReadCell">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOnBeforeReadRow">
+<param name="Local" value="CSVFile.TCSVFile.html#FOnBeforeReadRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOnFound">
+<param name="Local" value="CSVFile.TCSVFile.html#FOnFound">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOnProgress">
+<param name="Local" value="CSVFile.TCSVFile.html#FOnProgress">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOutput">
+<param name="Local" value="CSVFile.TCSVFile.html#FOutput">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FQuotes">
+<param name="Local" value="CSVFile.TCSVFile.html#FQuotes">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FSeparator">
+<param name="Local" value="CSVFile.TCSVFile.html#FSeparator">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FUseHeader">
+<param name="Local" value="CSVFile.TCSVFile.html#FUseHeader">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Eigenschaften">
+<param name="Local" value="CSVFile.TCSVFile.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Autoselect">
+<param name="Local" value="CSVFile.TCSVFile.html#Autoselect">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Cell">
+<param name="Local" value="CSVFile.TCSVFile.html#Cell">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Changed">
+<param name="Local" value="CSVFile.TCSVFile.html#Changed">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ColCount">
+<param name="Local" value="CSVFile.TCSVFile.html#ColCount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Data">
+<param name="Local" value="CSVFile.TCSVFile.html#Data">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Encoding">
+<param name="Local" value="CSVFile.TCSVFile.html#Encoding">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LineBreakStyle">
+<param name="Local" value="CSVFile.TCSVFile.html#LineBreakStyle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OnAfterReadRow">
+<param name="Local" value="CSVFile.TCSVFile.html#OnAfterReadRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OnBeforeReadCell">
+<param name="Local" value="CSVFile.TCSVFile.html#OnBeforeReadCell">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OnBeforeReadRow">
+<param name="Local" value="CSVFile.TCSVFile.html#OnBeforeReadRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OnFound">
+<param name="Local" value="CSVFile.TCSVFile.html#OnFound">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OnProgress">
+<param name="Local" value="CSVFile.TCSVFile.html#OnProgress">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Output">
+<param name="Local" value="CSVFile.TCSVFile.html#Output">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="RowCount">
+<param name="Local" value="CSVFile.TCSVFile.html#RowCount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Separator">
+<param name="Local" value="CSVFile.TCSVFile.html#Separator">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Size">
+<param name="Local" value="CSVFile.TCSVFile.html#Size">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="UseHeader">
+<param name="Local" value="CSVFile.TCSVFile.html#UseHeader">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methoden">
+<param name="Local" value="CSVFile.TCSVFile.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="CSVFile.TCSVFile.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="CSVFile.TCSVFile.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AppendRow">
+<param name="Local" value="CSVFile.TCSVFile.html#AppendRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Calculate">
+<param name="Local" value="CSVFile.TCSVFile.html#Calculate">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ChangesCount">
+<param name="Local" value="CSVFile.TCSVFile.html#ChangesCount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CombineCols">
+<param name="Local" value="CSVFile.TCSVFile.html#CombineCols">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CopyColTo">
+<param name="Local" value="CSVFile.TCSVFile.html#CopyColTo">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DeleteCol">
+<param name="Local" value="CSVFile.TCSVFile.html#DeleteCol">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DeleteRow">
+<param name="Local" value="CSVFile.TCSVFile.html#DeleteRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DetectDataType">
+<param name="Local" value="CSVFile.TCSVFile.html#DetectDataType">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetasText">
+<param name="Local" value="CSVFile.TCSVFile.html#GetasText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetCellChange">
+<param name="Local" value="CSVFile.TCSVFile.html#GetCellChange">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetColPos">
+<param name="Local" value="CSVFile.TCSVFile.html#GetColPos">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetEncoding">
+<param name="Local" value="CSVFile.TCSVFile.html#GetEncoding">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetEncoding">
+<param name="Local" value="CSVFile.TCSVFile.html#GetEncoding">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetHistory">
+<param name="Local" value="CSVFile.TCSVFile.html#GetHistory">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetLineBreakStyleFromFile">
+<param name="Local" value="CSVFile.TCSVFile.html#GetLineBreakStyleFromFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetLineBreakStyleFromString">
+<param name="Local" value="CSVFile.TCSVFile.html#GetLineBreakStyleFromString">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetQuoteFromFile">
+<param name="Local" value="CSVFile.TCSVFile.html#GetQuoteFromFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetQuoteFromString">
+<param name="Local" value="CSVFile.TCSVFile.html#GetQuoteFromString">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetSeparatorFromFile">
+<param name="Local" value="CSVFile.TCSVFile.html#GetSeparatorFromFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetSeparatorFromString">
+<param name="Local" value="CSVFile.TCSVFile.html#GetSeparatorFromString">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="HasChanges">
+<param name="Local" value="CSVFile.TCSVFile.html#HasChanges">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="HasSearchNext">
+<param name="Local" value="CSVFile.TCSVFile.html#HasSearchNext">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InsertCol">
+<param name="Local" value="CSVFile.TCSVFile.html#InsertCol">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InsertRow">
+<param name="Local" value="CSVFile.TCSVFile.html#InsertRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="IsCellChanged">
+<param name="Local" value="CSVFile.TCSVFile.html#IsCellChanged">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Replace">
+<param name="Local" value="CSVFile.TCSVFile.html#Replace">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Search">
+<param name="Local" value="CSVFile.TCSVFile.html#Search">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SearchEx">
+<param name="Local" value="CSVFile.TCSVFile.html#SearchEx">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SearchFirst">
+<param name="Local" value="CSVFile.TCSVFile.html#SearchFirst">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SearchLast">
+<param name="Local" value="CSVFile.TCSVFile.html#SearchLast">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SearchNext">
+<param name="Local" value="CSVFile.TCSVFile.html#SearchNext">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetCell">
+<param name="Local" value="CSVFile.TCSVFile.html#GetCell">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetCellChanged">
+<param name="Local" value="CSVFile.TCSVFile.html#GetCellChanged">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetColCount">
+<param name="Local" value="CSVFile.TCSVFile.html#GetColCount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetLineBreak">
+<param name="Local" value="CSVFile.TCSVFile.html#GetLineBreak">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetRowCount">
+<param name="Local" value="CSVFile.TCSVFile.html#GetRowCount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetSize">
+<param name="Local" value="CSVFile.TCSVFile.html#GetSize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Clear">
+<param name="Local" value="CSVFile.TCSVFile.html#Clear">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ClearChanges">
+<param name="Local" value="CSVFile.TCSVFile.html#ClearChanges">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ClearCol">
+<param name="Local" value="CSVFile.TCSVFile.html#ClearCol">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CopyToList">
+<param name="Local" value="CSVFile.TCSVFile.html#CopyToList">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ExportAsJSON">
+<param name="Local" value="CSVFile.TCSVFile.html#ExportAsJSON">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ExportAsXLSX">
+<param name="Local" value="CSVFile.TCSVFile.html#ExportAsXLSX">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ExportAsXML">
+<param name="Local" value="CSVFile.TCSVFile.html#ExportAsXML">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InsertFromText">
+<param name="Local" value="CSVFile.TCSVFile.html#InsertFromText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadFromFile">
+<param name="Local" value="CSVFile.TCSVFile.html#LoadFromFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadMultilineCSVFromFile">
+<param name="Local" value="CSVFile.TCSVFile.html#LoadMultilineCSVFromFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadMultilineCSVFromString">
+<param name="Local" value="CSVFile.TCSVFile.html#LoadMultilineCSVFromString">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="MoveColBy">
+<param name="Local" value="CSVFile.TCSVFile.html#MoveColBy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="MoveRowBy">
+<param name="Local" value="CSVFile.TCSVFile.html#MoveRowBy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ParseMultilineCSV">
+<param name="Local" value="CSVFile.TCSVFile.html#ParseMultilineCSV">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ParseMultilineCSVold">
+<param name="Local" value="CSVFile.TCSVFile.html#ParseMultilineCSVold">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="RemoveRange">
+<param name="Local" value="CSVFile.TCSVFile.html#RemoveRange">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="RowToList">
+<param name="Local" value="CSVFile.TCSVFile.html#RowToList">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SaveToFile">
+<param name="Local" value="CSVFile.TCSVFile.html#SaveToFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Sort">
+<param name="Local" value="CSVFile.TCSVFile.html#Sort">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SortExt">
+<param name="Local" value="CSVFile.TCSVFile.html#SortExt">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SwapCol">
+<param name="Local" value="CSVFile.TCSVFile.html#SwapCol">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SwapRow">
+<param name="Local" value="CSVFile.TCSVFile.html#SwapRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AddValueToArray">
+<param name="Local" value="CSVFile.TCSVFile.html#AddValueToArray">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Assign">
+<param name="Local" value="CSVFile.TCSVFile.html#Assign">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ParseCSVContent">
+<param name="Local" value="CSVFile.TCSVFile.html#ParseCSVContent">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ProcessRecord">
+<param name="Local" value="CSVFile.TCSVFile.html#ProcessRecord">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetCell">
+<param name="Local" value="CSVFile.TCSVFile.html#SetCell">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetCellChanged">
+<param name="Local" value="CSVFile.TCSVFile.html#SetCellChanged">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetOuput">
+<param name="Local" value="CSVFile.TCSVFile.html#SetOuput">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TCSVPos">
+<param name="Local" value="CSVFile.TCSVPos.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="CSVFile.TCSVPos.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="X">
+<param name="Local" value="CSVFile.TCSVPos.html#X">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Y">
+<param name="Local" value="CSVFile.TCSVPos.html#Y">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TFrontend_Output_Base">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FAutoAutput">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#FAutoAutput">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FCSVFile">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#FCSVFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FSort">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#FSort">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FSortDirection">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#FSortDirection">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Eigenschaften">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="AutoOutput">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#AutoOutput">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CSVFile">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#CSVFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Sort">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#Sort">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SortDirection">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#SortDirection">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methoden">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Clear">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#Clear">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#Initialize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SelectFocus">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#SelectFocus">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Update">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#Update">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="UpdateCell">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#UpdateCell">
+</object>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Funktionen und Prozeduren">
+<param name="Local" value="CSVFile.html#@FuncsProcs">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Calc_Average">
+<param name="Local" value="CSVFile.html#Calc_Average">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Calc_Count">
+<param name="Local" value="CSVFile.html#Calc_Count">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Calc_Max">
+<param name="Local" value="CSVFile.html#Calc_Max">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Calc_Min">
+<param name="Local" value="CSVFile.html#Calc_Min">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Calc_Product">
+<param name="Local" value="CSVFile.html#Calc_Product">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Calc_Sum">
+<param name="Local" value="CSVFile.html#Calc_Sum">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="EncodingToString">
+<param name="Local" value="CSVFile.html#EncodingToString">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="NormalizeDecimalSeparator">
+<param name="Local" value="CSVFile.html#NormalizeDecimalSeparator">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ReadFileContent">
+<param name="Local" value="CSVFile.html#ReadFileContent">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="RemoveSurroundingQuotes">
+<param name="Local" value="CSVFile.html#RemoveSurroundingQuotes">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Datentypen">
+<param name="Local" value="CSVFile.html#@Types">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TCalculationType">
+<param name="Local" value="CSVFile.html#TCalculationType">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TCSVSortDirection">
+<param name="Local" value="CSVFile.html#TCSVSortDirection">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TDataType">
+<param name="Local" value="CSVFile.html#TDataType">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TLineBreakStyle">
+<param name="Local" value="CSVFile.html#TLineBreakStyle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TOnAfterReadRow">
+<param name="Local" value="CSVFile.html#TOnAfterReadRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TOnBeforeReadCell">
+<param name="Local" value="CSVFile.html#TOnBeforeReadCell">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TOnBeforeReadRow">
+<param name="Local" value="CSVFile.html#TOnBeforeReadRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TOnFoundEvent">
+<param name="Local" value="CSVFile.html#TOnFoundEvent">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TProgressEvent">
+<param name="Local" value="CSVFile.html#TProgressEvent">
+</object>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Klassenhierarchie">
+<param name="Local" value="ClassHierarchy.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Klassen">
+<param name="Local" value="AllClasses.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TCellChange">
+<param name="Local" value="CSVFile.TCellChange.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="CSVFile.TCellChange.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Col">
+<param name="Local" value="CSVFile.TCellChange.html#Col">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="History">
+<param name="Local" value="CSVFile.TCellChange.html#History">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Row">
+<param name="Local" value="CSVFile.TCellChange.html#Row">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TCSVFile">
+<param name="Local" value="CSVFile.TCSVFile.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="CSVFile.TCSVFile.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FAutoselect">
+<param name="Local" value="CSVFile.TCSVFile.html#FAutoselect">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FChanges">
+<param name="Local" value="CSVFile.TCSVFile.html#FChanges">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FData">
+<param name="Local" value="CSVFile.TCSVFile.html#FData">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FEncoding">
+<param name="Local" value="CSVFile.TCSVFile.html#FEncoding">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FLastMatches">
+<param name="Local" value="CSVFile.TCSVFile.html#FLastMatches">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FLastSearchPos">
+<param name="Local" value="CSVFile.TCSVFile.html#FLastSearchPos">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FLineBreakStyle">
+<param name="Local" value="CSVFile.TCSVFile.html#FLineBreakStyle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOnAfterReadRow">
+<param name="Local" value="CSVFile.TCSVFile.html#FOnAfterReadRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOnBeforeReadCell">
+<param name="Local" value="CSVFile.TCSVFile.html#FOnBeforeReadCell">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOnBeforeReadRow">
+<param name="Local" value="CSVFile.TCSVFile.html#FOnBeforeReadRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOnFound">
+<param name="Local" value="CSVFile.TCSVFile.html#FOnFound">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOnProgress">
+<param name="Local" value="CSVFile.TCSVFile.html#FOnProgress">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOutput">
+<param name="Local" value="CSVFile.TCSVFile.html#FOutput">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FQuotes">
+<param name="Local" value="CSVFile.TCSVFile.html#FQuotes">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FSeparator">
+<param name="Local" value="CSVFile.TCSVFile.html#FSeparator">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FUseHeader">
+<param name="Local" value="CSVFile.TCSVFile.html#FUseHeader">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Eigenschaften">
+<param name="Local" value="CSVFile.TCSVFile.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Autoselect">
+<param name="Local" value="CSVFile.TCSVFile.html#Autoselect">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Cell">
+<param name="Local" value="CSVFile.TCSVFile.html#Cell">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Changed">
+<param name="Local" value="CSVFile.TCSVFile.html#Changed">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ColCount">
+<param name="Local" value="CSVFile.TCSVFile.html#ColCount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Data">
+<param name="Local" value="CSVFile.TCSVFile.html#Data">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Encoding">
+<param name="Local" value="CSVFile.TCSVFile.html#Encoding">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LineBreakStyle">
+<param name="Local" value="CSVFile.TCSVFile.html#LineBreakStyle">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OnAfterReadRow">
+<param name="Local" value="CSVFile.TCSVFile.html#OnAfterReadRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OnBeforeReadCell">
+<param name="Local" value="CSVFile.TCSVFile.html#OnBeforeReadCell">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OnBeforeReadRow">
+<param name="Local" value="CSVFile.TCSVFile.html#OnBeforeReadRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OnFound">
+<param name="Local" value="CSVFile.TCSVFile.html#OnFound">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OnProgress">
+<param name="Local" value="CSVFile.TCSVFile.html#OnProgress">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Output">
+<param name="Local" value="CSVFile.TCSVFile.html#Output">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="RowCount">
+<param name="Local" value="CSVFile.TCSVFile.html#RowCount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Separator">
+<param name="Local" value="CSVFile.TCSVFile.html#Separator">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Size">
+<param name="Local" value="CSVFile.TCSVFile.html#Size">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="UseHeader">
+<param name="Local" value="CSVFile.TCSVFile.html#UseHeader">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methoden">
+<param name="Local" value="CSVFile.TCSVFile.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="CSVFile.TCSVFile.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Destroy">
+<param name="Local" value="CSVFile.TCSVFile.html#Destroy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AppendRow">
+<param name="Local" value="CSVFile.TCSVFile.html#AppendRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Calculate">
+<param name="Local" value="CSVFile.TCSVFile.html#Calculate">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ChangesCount">
+<param name="Local" value="CSVFile.TCSVFile.html#ChangesCount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CombineCols">
+<param name="Local" value="CSVFile.TCSVFile.html#CombineCols">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CopyColTo">
+<param name="Local" value="CSVFile.TCSVFile.html#CopyColTo">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DeleteCol">
+<param name="Local" value="CSVFile.TCSVFile.html#DeleteCol">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DeleteRow">
+<param name="Local" value="CSVFile.TCSVFile.html#DeleteRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="DetectDataType">
+<param name="Local" value="CSVFile.TCSVFile.html#DetectDataType">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetasText">
+<param name="Local" value="CSVFile.TCSVFile.html#GetasText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetCellChange">
+<param name="Local" value="CSVFile.TCSVFile.html#GetCellChange">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetColPos">
+<param name="Local" value="CSVFile.TCSVFile.html#GetColPos">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetEncoding">
+<param name="Local" value="CSVFile.TCSVFile.html#GetEncoding">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetEncoding">
+<param name="Local" value="CSVFile.TCSVFile.html#GetEncoding">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetHistory">
+<param name="Local" value="CSVFile.TCSVFile.html#GetHistory">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetLineBreakStyleFromFile">
+<param name="Local" value="CSVFile.TCSVFile.html#GetLineBreakStyleFromFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetLineBreakStyleFromString">
+<param name="Local" value="CSVFile.TCSVFile.html#GetLineBreakStyleFromString">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetQuoteFromFile">
+<param name="Local" value="CSVFile.TCSVFile.html#GetQuoteFromFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetQuoteFromString">
+<param name="Local" value="CSVFile.TCSVFile.html#GetQuoteFromString">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetSeparatorFromFile">
+<param name="Local" value="CSVFile.TCSVFile.html#GetSeparatorFromFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetSeparatorFromString">
+<param name="Local" value="CSVFile.TCSVFile.html#GetSeparatorFromString">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="HasChanges">
+<param name="Local" value="CSVFile.TCSVFile.html#HasChanges">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="HasSearchNext">
+<param name="Local" value="CSVFile.TCSVFile.html#HasSearchNext">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InsertCol">
+<param name="Local" value="CSVFile.TCSVFile.html#InsertCol">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InsertRow">
+<param name="Local" value="CSVFile.TCSVFile.html#InsertRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="IsCellChanged">
+<param name="Local" value="CSVFile.TCSVFile.html#IsCellChanged">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Replace">
+<param name="Local" value="CSVFile.TCSVFile.html#Replace">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Search">
+<param name="Local" value="CSVFile.TCSVFile.html#Search">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SearchEx">
+<param name="Local" value="CSVFile.TCSVFile.html#SearchEx">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SearchFirst">
+<param name="Local" value="CSVFile.TCSVFile.html#SearchFirst">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SearchLast">
+<param name="Local" value="CSVFile.TCSVFile.html#SearchLast">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SearchNext">
+<param name="Local" value="CSVFile.TCSVFile.html#SearchNext">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetCell">
+<param name="Local" value="CSVFile.TCSVFile.html#GetCell">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetCellChanged">
+<param name="Local" value="CSVFile.TCSVFile.html#GetCellChanged">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetColCount">
+<param name="Local" value="CSVFile.TCSVFile.html#GetColCount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetLineBreak">
+<param name="Local" value="CSVFile.TCSVFile.html#GetLineBreak">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetRowCount">
+<param name="Local" value="CSVFile.TCSVFile.html#GetRowCount">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="GetSize">
+<param name="Local" value="CSVFile.TCSVFile.html#GetSize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Clear">
+<param name="Local" value="CSVFile.TCSVFile.html#Clear">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ClearChanges">
+<param name="Local" value="CSVFile.TCSVFile.html#ClearChanges">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ClearCol">
+<param name="Local" value="CSVFile.TCSVFile.html#ClearCol">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CopyToList">
+<param name="Local" value="CSVFile.TCSVFile.html#CopyToList">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ExportAsJSON">
+<param name="Local" value="CSVFile.TCSVFile.html#ExportAsJSON">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ExportAsXLSX">
+<param name="Local" value="CSVFile.TCSVFile.html#ExportAsXLSX">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ExportAsXML">
+<param name="Local" value="CSVFile.TCSVFile.html#ExportAsXML">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="InsertFromText">
+<param name="Local" value="CSVFile.TCSVFile.html#InsertFromText">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadFromFile">
+<param name="Local" value="CSVFile.TCSVFile.html#LoadFromFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadMultilineCSVFromFile">
+<param name="Local" value="CSVFile.TCSVFile.html#LoadMultilineCSVFromFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="LoadMultilineCSVFromString">
+<param name="Local" value="CSVFile.TCSVFile.html#LoadMultilineCSVFromString">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="MoveColBy">
+<param name="Local" value="CSVFile.TCSVFile.html#MoveColBy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="MoveRowBy">
+<param name="Local" value="CSVFile.TCSVFile.html#MoveRowBy">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ParseMultilineCSV">
+<param name="Local" value="CSVFile.TCSVFile.html#ParseMultilineCSV">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ParseMultilineCSVold">
+<param name="Local" value="CSVFile.TCSVFile.html#ParseMultilineCSVold">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="RemoveRange">
+<param name="Local" value="CSVFile.TCSVFile.html#RemoveRange">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="RowToList">
+<param name="Local" value="CSVFile.TCSVFile.html#RowToList">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SaveToFile">
+<param name="Local" value="CSVFile.TCSVFile.html#SaveToFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Sort">
+<param name="Local" value="CSVFile.TCSVFile.html#Sort">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SortExt">
+<param name="Local" value="CSVFile.TCSVFile.html#SortExt">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SwapCol">
+<param name="Local" value="CSVFile.TCSVFile.html#SwapCol">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SwapRow">
+<param name="Local" value="CSVFile.TCSVFile.html#SwapRow">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AddValueToArray">
+<param name="Local" value="CSVFile.TCSVFile.html#AddValueToArray">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Assign">
+<param name="Local" value="CSVFile.TCSVFile.html#Assign">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ParseCSVContent">
+<param name="Local" value="CSVFile.TCSVFile.html#ParseCSVContent">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ProcessRecord">
+<param name="Local" value="CSVFile.TCSVFile.html#ProcessRecord">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetCell">
+<param name="Local" value="CSVFile.TCSVFile.html#SetCell">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetCellChanged">
+<param name="Local" value="CSVFile.TCSVFile.html#SetCellChanged">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SetOuput">
+<param name="Local" value="CSVFile.TCSVFile.html#SetOuput">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TCSVPos">
+<param name="Local" value="CSVFile.TCSVPos.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="CSVFile.TCSVPos.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="X">
+<param name="Local" value="CSVFile.TCSVPos.html#X">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Y">
+<param name="Local" value="CSVFile.TCSVPos.html#Y">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TFrontend_Output_Base">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FAutoAutput">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#FAutoAutput">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FCSVFile">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#FCSVFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FSort">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#FSort">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FSortDirection">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#FSortDirection">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Eigenschaften">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="AutoOutput">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#AutoOutput">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="CSVFile">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#CSVFile">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Sort">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#Sort">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SortDirection">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#SortDirection">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methoden">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Clear">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#Clear">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#Initialize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SelectFocus">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#SelectFocus">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Update">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#Update">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="UpdateCell">
+<param name="Local" value="CSVFile.TFrontend_Output_Base.html#UpdateCell">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TFrontend_Output_TListView">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FIgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#FIgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FListView">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#FListView">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Eigenschaften">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="IgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#IgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="ListView">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#ListView">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methoden">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#Initialize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Update">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#Update">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="UpdateCell">
+<param name="Local" value="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#UpdateCell">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TFrontend_Output_TStringGrid">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FAutoSize">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FAutoSize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FAutosizeSpan">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FAutosizeSpan">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FIgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FIgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FStringGrid">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FStringGrid">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Eigenschaften">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="AutoSize">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#AutoSize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AutosizeSpan">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#AutosizeSpan">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="IgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#IgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="StringGrid">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#StringGrid">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methoden">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="AutoSizeColumnsAndRows">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#AutoSizeColumnsAndRows">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Clear">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#Clear">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#Initialize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="SelectFocus">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#SelectFocus">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Update">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#Update">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="UpdateCell">
+<param name="Local" value="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#UpdateCell">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TFrontend_Output_TStringlist">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FIgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#FIgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FOutputColumn">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#FOutputColumn">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FStrings">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#FStrings">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Eigenschaften">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="IgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#IgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="OutputColumn">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#OutputColumn">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Strings">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#Strings">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methoden">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#Initialize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Update">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#Update">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="UpdateCell">
+<param name="Local" value="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html#UpdateCell">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TFrontend_Output_TVirtualTreeview">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="FIgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#FIgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="FTreeView">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#FTreeView">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Eigenschaften">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#@Properties">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="IgnoreHeader">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#IgnoreHeader">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="TreeView">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#TreeView">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Methoden">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#@Methods">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Create">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#Create">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Initialize">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#Initialize">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Update">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#Update">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="UpdateCell">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html#UpdateCell">
+</object>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="TNodeData">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TNodeData.html">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Felder">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TNodeData.html#@Fields">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Data">
+<param name="Local" value="class_Frontend_Output_TVirtualTreeview.TNodeData.html#Data">
+</object>
+</ul>
+</ul>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Übersicht">
+</object>
+<ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Alle Units">
+<param name="Local" value="AllUnits.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Klassenhierarchie">
+<param name="Local" value="ClassHierarchy.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Alle Klassen, Schnittstellen, Objekte und Records">
+<param name="Local" value="AllClasses.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Alle Typen">
+<param name="Local" value="AllTypes.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Alle Variablen">
+<param name="Local" value="AllVariables.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Alle Konstanten">
+<param name="Local" value="AllConstants.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Alle Funktionen und Prozeduren">
+<param name="Local" value="AllFunctions.html">
+</object>
+<li><object type="text/sitemap">
+<param name="Name" value="Alle Bezeichner">
+<param name="Local" value="AllIdentifiers.html">
+</object>
+</ul>
+<li><object type="text/sitemap">
+<param name="Name" value="Legende">
+<param name="Local" value="Legend.html">
+</object>
+</ul>
+</body></html>

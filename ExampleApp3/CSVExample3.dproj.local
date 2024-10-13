@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.646,=D:\Projekte\Delphi\CSV_CR_Class\class_Frontend_Output_TStringGrid.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.461,=C:\Users\teitg\Documents\Embarcadero\Studio\Projekte\Unit9.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.356,C:\Users\teitg\Documents\Embarcadero\Studio\Projekte\Unit9.pas=D:\Projekte\Delphi\CSV_CR_Class\ExampleApp3\frmMain.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.117,D:\Projekte\Delphi\CSV_CR_Class\ExampleApp3\frmMain.dfm=D:\Projekte\Delphi\CSV_CR_Class\ExampleApp3\frm_Main.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.117,D:\Projekte\Delphi\CSV_CR_Class\ExampleApp3\frmMain.pas=D:\Projekte\Delphi\CSV_CR_Class\ExampleApp3\frm_Main.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.060,=D:\Projekte\Delphi\CSV_CR_Class\CSVFile.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.101,=D:\Projekte\Delphi\CSV_CR_Class\ExampleApp4\CSVFile.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.356,=D:\Projekte\Delphi\CSV_CR_Class\CSV_CR_Class.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.023,D:\Projekte\Delphi\CSV_CR_Class\CSV_CR_Class.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.068,C:\Users\teitg\Documents\Embarcadero\Studio\Projekte\Project9.dproj=D:\Projekte\Delphi\CSV_CR_Class\ExampleApp3\CSVExample3.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.356,C:\Users\teitg\Documents\Embarcadero\Studio\Projekte\Unit9.dfm=D:\Projekte\Delphi\CSV_CR_Class\ExampleApp3\frmMain.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

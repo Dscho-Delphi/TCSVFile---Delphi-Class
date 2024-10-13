@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>TCSVFile: class_Frontend_Output_TStringGrid: Klasse TFrontend_Output_TStringGrid</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="PasDoc 0.16.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<div class="container"><div class="navigation">
+<h2><a href="index.html">TCSVFile</a></h2><ul><li><a href="AllUnits.html">Units</a></li><li><a href="ClassHierarchy.html">Klassenhierarchie</a></li><li><a href="AllClasses.html">Klassen, Interfaces und Objects</a></li><li><a href="AllTypes.html">Datentypen</a></li><li><a href="AllVariables.html">Variablen</a></li><li><a href="AllConstants.html">Konstanten</a></li><li><a href="AllFunctions.html">Funktionen und Prozeduren</a></li><li><a href="AllIdentifiers.html">Bezeichner</a></li><li><form class="search-form" action="tipue_results.html"><div class="search-input"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required><div class="search-button"><input type="button" id="tipue_search_button" onclick="this.form.submit();"></div></div></form>
+<div style="clear: both"></div>
+</li></ul></div><div class="content">
+<span id="TFrontend_Output_TStringGrid"></span><h1 class="cio">Klasse TFrontend_Output_TStringGrid</h1>
+<div class="sections">
+<div class="one_section"><a class="section" href="#PasDoc-Description">Beschreibung</a></div><div class="one_section"><a class="section" href="#PasDoc-Hierarchy">Hierarchie</a></div><div class="one_section"><a class="section" href="#PasDoc-Fields">Felder</a></div><div class="one_section"><a class="section" href="#PasDoc-Methods">Methoden</a></div><div class="one_section"><a class="section" href="#PasDoc-Properties">Eigenschaften</a></div></div>
+<span id="PasDoc-Description"></span><h2 class="unit">Unit</h2>
+<p class="unitlink">
+<a href="class_Frontend_Output_TStringGrid.html">class_Frontend_Output_TStringGrid</a></p>
+<h2 class="declaration">Deklaration</h2>
+<p class="declaration">
+<code>type TFrontend_Output_TStringGrid = class(<a class="normal" href="CSVFile.TFrontend_Output_Base.html">TFrontend_Output_Base</a>)</code></p>
+<h2 class="description">Beschreibung</h2>
+<p>
+TFrontend_Output_TStringGrid ist eine abgeleitete Klasse von TFrontend_Output_Base, die speziell dafür entwickelt wurde, CSV-Daten in einem TStringGrid anzuzeigen und zu bearbeiten. Diese Klasse stellt Methoden zur Verfügung, um das TStringGrid zu initialisieren, zu aktualisieren, Zellen zu bearbeiten und den Fokus auf eine bestimmte Zelle zu setzen.
+
+<p>Sie ermöglicht eine flexible und benutzerfreundliche Integration von CSV-Daten in eine visuelle Oberfläche, wobei spezifische Methoden zur Größenanpassung von Spalten und Zeilen sowie zum Ignorieren des Headers angeboten werden.
+
+<p>Abgeleitete Klassen, die diese Basisklasse verwenden, müssen die abstrakten Methoden `Initialize`, `Clear`, `Update`, `UpdateCell` und `SelectFocus` implementieren, um eine spezifische Ausgabeform zu realisieren.
+
+<p> @version 1.0 </p>
+<span id="PasDoc-Hierarchy"></span><h2 class="hierarchy">Hierarchie</h2>
+<ul class="hierarchy"><li class="ancestor">TObject</li>
+<li class="ancestor"><a class="normal" href="CSVFile.TFrontend_Output_Base.html">TFrontend_Output_Base</a></li>
+<li class="thisitem">TFrontend_Output_TStringGrid</li></ul><h2 class="overview">Übersicht</h2>
+<span id="PasDoc-Fields"></span><h3 class="summary">Felder</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FAutoSize">FAutoSize</a></strong>: Boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FAutosizeSpan">FAutosizeSpan</a></strong>: Integer;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FIgnoreHeader">FIgnoreHeader</a></strong>: Boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FStringGrid">FStringGrid</a></strong>: TStringGrid;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Methods"></span><h3 class="summary">Methoden</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <strong><a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#Create">Create</a></strong>(ACSVFile: <a href="CSVFile.TCSVFile.html">TCSVFile</a>; AStringGrid: TStringGrid); reintroduce;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#AutoSizeColumnsAndRows">AutoSizeColumnsAndRows</a></strong>(Span: Integer = -1);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#Clear">Clear</a></strong>; override;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#Initialize">Initialize</a></strong>; override;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#SelectFocus">SelectFocus</a></strong>(ARow, ACol: Integer); override;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#Update">Update</a></strong>; override;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#UpdateCell">UpdateCell</a></strong>(ARow, ACol: Integer); override;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Properties"></span><h3 class="summary">Eigenschaften</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#AutoSize">AutoSize</a></strong>: Boolean read <a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FAutoSize">FAutoSize</a> write <a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FAutoSize">FAutoSize</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#AutosizeSpan">AutosizeSpan</a></strong>: Integer read <a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FAutosizeSpan">FAutosizeSpan</a> write <a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FAutosizeSpan">FAutosizeSpan</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#IgnoreHeader">IgnoreHeader</a></strong>: Boolean read <a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FIgnoreHeader">FIgnoreHeader</a> write <a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FIgnoreHeader">FIgnoreHeader</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#StringGrid">StringGrid</a></strong>: TStringGrid read <a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FStringGrid">FStringGrid</a>;</code></td>
+</tr>
+</table>
+<h2 class="description">Beschreibung</h2>
+<h3 class="detail">Felder</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FAutoSize"></span><code><strong>FAutoSize</strong>: Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Flag zum automatischen Anpassen der Größe</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FAutosizeSpan"></span><code><strong>FAutosizeSpan</strong>: Integer;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Span für die automatische Größenanpassung</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FIgnoreHeader"></span><code><strong>FIgnoreHeader</strong>: Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Flag zum Ignorieren des Headers</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FStringGrid"></span><code><strong>FStringGrid</strong>: TStringGrid;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Referenz auf das TStringGrid</p>
+</td></tr>
+</table>
+<h3 class="detail">Methoden</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Create"></span><code>constructor <strong>Create</strong>(ACSVFile: <a href="CSVFile.TCSVFile.html">TCSVFile</a>; AStringGrid: TStringGrid); reintroduce;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Konstruktor zur Initialisierung der Klasse mit einer CSV-Datei und einem StringGrid</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="AutoSizeColumnsAndRows"></span><code>procedure <strong>AutoSizeColumnsAndRows</strong>(Span: Integer = -1);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Methode zum automatischen Anpassen der Spalten- und Zeilengröße</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Clear"></span><code>procedure <strong>Clear</strong>; override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Methode zum Zurücksetzen der Ausgabe</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Initialize"></span><code>procedure <strong>Initialize</strong>; override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Methode zur Initialisierung der Ausgabe</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SelectFocus"></span><code>procedure <strong>SelectFocus</strong>(ARow, ACol: Integer); override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Methode zum Setzen des Fokus auf eine bestimmte Zelle</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Update"></span><code>procedure <strong>Update</strong>; override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Methode zur Aktualisierung der gesamten Ausgabe</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="UpdateCell"></span><code>procedure <strong>UpdateCell</strong>(ARow, ACol: Integer); override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Aktualisierungsmethode für eine bestimmte Zelle</p>
+</td></tr>
+</table>
+<h3 class="detail">Eigenschaften</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="AutoSize"></span><code>property <strong>AutoSize</strong>: Boolean read <a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FAutoSize">FAutoSize</a> write <a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FAutoSize">FAutoSize</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Flag zum automatischen Anpassen der Größe</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="AutosizeSpan"></span><code>property <strong>AutosizeSpan</strong>: Integer read <a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FAutosizeSpan">FAutosizeSpan</a> write <a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FAutosizeSpan">FAutosizeSpan</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Span für die automatische Größenanpassung</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="IgnoreHeader"></span><code>property <strong>IgnoreHeader</strong>: Boolean read <a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FIgnoreHeader">FIgnoreHeader</a> write <a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FIgnoreHeader">FIgnoreHeader</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Flag zum Ignorieren des Headers</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="StringGrid"></span><code>property <strong>StringGrid</strong>: TStringGrid read <a href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html#FStringGrid">FStringGrid</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Referenz auf das TStringGrid</p>
+</td></tr>
+</table>
+<h2 class="authors">Autor</h2>
+<ul class="authors">
+<li>Johannes Teitge</li>
+</ul>
+<h2 class="created">Erstellt</h2>
+<p>
+12.10.2024
+</p>
+<hr><span class="appinfo"><em>Erstellt mit <a href="https://pasdoc.github.io/">PasDoc 0.16.0</a>. </em>
+</span>
+</div></div></body></html>

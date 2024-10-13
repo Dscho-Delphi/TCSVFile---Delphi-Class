@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>TCSVFile: Alle Klassen, Schnittstellen, Objekte und Records</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="PasDoc 0.16.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<div class="container"><div class="navigation">
+<h2><a href="index.html">TCSVFile</a></h2><ul><li><a href="AllUnits.html">Units</a></li><li><a href="ClassHierarchy.html">Klassenhierarchie</a></li><li><a href="AllClasses.html">Klassen, Interfaces und Objects</a></li><li><a href="AllTypes.html">Datentypen</a></li><li><a href="AllVariables.html">Variablen</a></li><li><a href="AllConstants.html">Konstanten</a></li><li><a href="AllFunctions.html">Funktionen und Prozeduren</a></li><li><a href="AllIdentifiers.html">Bezeichner</a></li><li><form class="search-form" action="tipue_results.html"><div class="search-input"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required><div class="search-button"><input type="button" id="tipue_search_button" onclick="this.form.submit();"></div></div></form>
+<div style="clear: both"></div>
+</li></ul></div><div class="content">
+<h1 class="allitems">Alle Klassen, Schnittstellen, Objekte und Records</h1>
+<table class="itemstable wide_list">
+<tr class="listheader">
+<th class="itemname">Name</th>
+<th class="itemunit">Unit</th>
+<th class="itemdesc">Beschreibung</th>
+</tr>
+<tr class="list">
+<td class="itemname"><a class="bold" href="CSVFile.TCellChange.html">TCellChange</a></td>
+<td class="itemunit"><a class="bold" href="CSVFile.html">CSVFile</a></td>
+<td class="itemdesc"><p>TCellChange repräsentiert eine geänderte Zelle in einer CSV-Struktur. Diese Struktur speichert die Position der geänderten Zelle sowie die Historie der vorherigen Werte der Zelle. So können alle Änderungen an einer Zelle nachverfolgt werden.
+
+<p>@field Row: Integer Die horizontale Position (Zeile) der geänderten Zelle in der CSV-Struktur. Der Wert `Row` gibt an, welche Zeile die geänderte Zelle enthält.
+
+<p>@field Col: Integer Die vertikale Position (Spalte) der geänderten Zelle in der CSV-Struktur. Der Wert `Col` gibt an, welche Spalte die geänderte Zelle enthält.
+
+<p>@field History: TStringList Eine Liste, die die Historie der Werte speichert, die in der Zelle gespeichert waren. Jeder Eintrag in der Liste repräsentiert einen früheren Wert, der in dieser Zelle war. Dies ermöglicht es, Änderungen nachzuvollziehen und gegebenenfalls rückgängig zu machen.</p></td>
+</tr>
+<tr class="list2">
+<td class="itemname"><a class="bold" href="CSVFile.TCSVFile.html">TCSVFile</a></td>
+<td class="itemunit"><a class="bold" href="CSVFile.html">CSVFile</a></td>
+<td class="itemdesc"><p>TCSVFile - Eine Klasse zur Verwaltung und Verarbeitung von CSV-Dateien <br>
+
+<p>Diese Klasse bietet eine Vielzahl an Methoden, um CSV-Dateien zu laden, zu speichern, zu durchsuchen, <br> zu bearbeiten und zu analysieren. Sie unterstützt grundlegende Operationen wie das Einfügen, Löschen und <br> Kombinieren von Zeilen und Spalten, das Berechnen von Werten (z.B. Summe, Durchschnitt) sowie das Suchen <br> und Ersetzen von Text in Zellen. Die Klasse ermöglicht die Verarbeitung von CSV-Daten mit flexiblen <br> Trennzeichen, Zeichencodierungen und Zeilenumbruchstilen. <br> <br>
+
+<p>Die Klasse enthält auch ein System zur Nachverfolgung von Änderungen an Zellen, mit Unterstützung für die <br> Historie von Zellenänderungen. Ein Event-Handling-Mechanismus erlaubt das Erstellen benutzerdefinierter <br> Reaktionen bei bestimmten Operationen, wie z.B. das Lesen von Zeilen oder das Finden von Suchtreffern. <br> <br>
+
+<p>Sie können die CSV-Daten in verschiedenen Formaten exportieren, einschließlich XML, JSON und XLSX. <br> <br>
+
+<p>Über die `Output`-Eigenschaft können Klassen, die vom Typ `TFrontend_Output_Base` abgeleitet sind, verwendet <br> werden. Dies ermöglicht die flexible Anbindung an beliebige Komponenten, APIs, Datenbanken, Files oder andere <br> externe Systeme, um CSV-Daten nach Bedarf weiterzugeben oder zu verarbeiten. <br> <br>
+
+<p>Diese Klasse bietet somit eine robuste Basis, die entweder direkt genutzt oder durch abgeleitete Klassen <br> angepasst werden kann, um spezifische Anforderungen an die Verarbeitung von CSV-Daten zu erfüllen. <br></p></td>
+</tr>
+<tr class="list">
+<td class="itemname"><a class="bold" href="CSVFile.TCSVPos.html">TCSVPos</a></td>
+<td class="itemunit"><a class="bold" href="CSVFile.html">CSVFile</a></td>
+<td class="itemdesc"><p>TCSVPos repräsentiert die Position eines bestimmten Elements innerhalb einer CSV-Struktur. Diese Struktur speichert die Zeile und die Spalte eines bestimmten Wertes oder Zelleninhalts in einer CSV-Datei, um den Zugriff auf spezifische Daten zu erleichtern.
+
+<p>@field X: Integer Die horizontale Position (Zeile) in der CSV-Struktur. Der Wert `X` gibt die Zeilennummer an, in der sich das Element befindet.
+
+<p>@field Y: Integer Die vertikale Position (Spalte) in der CSV-Struktur. Der Wert `Y` gibt die Spaltennummer an, in der sich das Element befindet.</p></td>
+</tr>
+<tr class="list2">
+<td class="itemname"><a class="bold" href="CSVFile.TFrontend_Output_Base.html">TFrontend_Output_Base</a></td>
+<td class="itemunit"><a class="bold" href="CSVFile.html">CSVFile</a></td>
+<td class="itemdesc"><p>TFrontend_Output_Base ist eine abstrakte Basisklasse, die als Fundament für die Entwicklung von spezifischen Ausgabe-Komponenten dient, die mit CSV-Dateien interagieren. Diese Klasse stellt grundlegende Methoden und Eigenschaften zur Verfügung, die für die Initialisierung, das Zurücksetzen, die Aktualisierung der Ausgabe sowie die Sortierung und Fokussierung auf spezifische Zellen erforderlich sind.
+
+<p>Abgeleitete Klassen, die diese Basisklasse verwenden, müssen die abstrakten Methoden `Initialize`, `Clear`, `Update`, `UpdateCell` und `SelectFocus` implementieren, um die spezifischen Logiken für die jeweilige Ausgabeform (z.B. XML, JSON, Excel, etc.) bereitzustellen. Die Klasse ermöglicht so eine Erweiterbarkeit durch Vererbung, um neue Ausgabeformate hinzuzufügen, die nahtlos mit der CSV-Datenstruktur zusammenarbeiten.
+
+<p><strong>Beispiel:</strong><br> Ein Beispiel für eine abgeleitete Klasse im selben Verzeichnis könnte `TFrontend_Output_TStringGrid` sein, die diese Methoden implementiert, um CSV-Daten in einemn TStringrid anzuzeigen und weiter zu bearbeiten.
+
+<p> @version 1.0 </p></td>
+</tr>
+<tr class="list">
+<td class="itemname"><a class="bold" href="class_Frontend_Output_TListView.TFrontend_Output_TListView.html">TFrontend_Output_TListView</a></td>
+<td class="itemunit"><a class="bold" href="class_Frontend_Output_TListView.html">class_Frontend_Output_TListView</a></td>
+<td class="itemdesc"><p>TFrontend_Output_TListView ist eine Klasse, die die Ausgabe von CSV-Daten in einem TListView verwaltet.</p></td>
+</tr>
+<tr class="list2">
+<td class="itemname"><a class="bold" href="class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html">TFrontend_Output_TStringGrid</a></td>
+<td class="itemunit"><a class="bold" href="class_Frontend_Output_TStringGrid.html">class_Frontend_Output_TStringGrid</a></td>
+<td class="itemdesc"><p>TFrontend_Output_TStringGrid ist eine abgeleitete Klasse von TFrontend_Output_Base, die speziell dafür entwickelt wurde, CSV-Daten in einem TStringGrid anzuzeigen und zu bearbeiten. Diese Klasse stellt Methoden zur Verfügung, um das TStringGrid zu initialisieren, zu aktualisieren, Zellen zu bearbeiten und den Fokus auf eine bestimmte Zelle zu setzen.
+
+<p>Sie ermöglicht eine flexible und benutzerfreundliche Integration von CSV-Daten in eine visuelle Oberfläche, wobei spezifische Methoden zur Größenanpassung von Spalten und Zeilen sowie zum Ignorieren des Headers angeboten werden.
+
+<p>Abgeleitete Klassen, die diese Basisklasse verwenden, müssen die abstrakten Methoden `Initialize`, `Clear`, `Update`, `UpdateCell` und `SelectFocus` implementieren, um eine spezifische Ausgabeform zu realisieren.
+
+<p> @version 1.0 </p></td>
+</tr>
+<tr class="list">
+<td class="itemname"><a class="bold" href="class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html">TFrontend_Output_TStringlist</a></td>
+<td class="itemunit"><a class="bold" href="class_Frontend_Output_TStringlist.html">class_Frontend_Output_TStringlist</a></td>
+<td class="itemdesc"><p>TFrontend_Output_TStringlist ist eine Klasse, die die Ausgabe von CSV-Daten in eine TStringList verwaltet.</p></td>
+</tr>
+<tr class="list2">
+<td class="itemname"><a class="bold" href="class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html">TFrontend_Output_TVirtualTreeview</a></td>
+<td class="itemunit"><a class="bold" href="class_Frontend_Output_TVirtualTreeview.html">class_Frontend_Output_TVirtualTreeview</a></td>
+<td class="itemdesc"><p>TFrontend_Output_TVirtualTreeview ist eine Klasse, die die Ausgabe von CSV-Daten in einem TVirtualStringTree verwaltet.</p></td>
+</tr>
+<tr class="list">
+<td class="itemname"><a class="bold" href="class_Frontend_Output_TVirtualTreeview.TNodeData.html">TNodeData</a></td>
+<td class="itemunit"><a class="bold" href="class_Frontend_Output_TVirtualTreeview.html">class_Frontend_Output_TVirtualTreeview</a></td>
+<td class="itemdesc"><p>TNodeData ist eine dynamische Struktur, die die CSV-Daten speichert.</p></td>
+</tr>
+</table>
+<hr><span class="appinfo"><em>Erstellt mit <a href="https://pasdoc.github.io/">PasDoc 0.16.0</a>. </em>
+</span>
+</div></div></body></html>

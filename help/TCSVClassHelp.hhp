@@ -1,0 +1,44 @@
+[OPTIONS]
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=TCSVClassHelp.chm
+Contents file=TCSVClassHelp.hhc
+Default Window=Default
+Default topic=AllUnits.html
+Display compile progress=Yes
+Error log file=TCSVClassHelp.log
+Full-text search=Yes
+Index file=TCSVClassHelp.hhk
+Title=TCSVFile
+
+[WINDOWS]
+Default="TCSVFile","TCSVClassHelp.hhc","TCSVClassHelp.hhk",,,,,,,0x23520,,0x300e,,,,,,,,0
+
+[FILES]
+Legend.html
+AllUnits.html
+ClassHierarchy.html
+AllClasses.html
+AllTypes.html
+AllVariables.html
+AllConstants.html
+AllFunctions.html
+AllIdentifiers.html
+class_Frontend_Output_TListView.html
+class_Frontend_Output_TListView.TFrontend_Output_TListView.html
+class_Frontend_Output_TStringGrid.html
+class_Frontend_Output_TStringGrid.TFrontend_Output_TStringGrid.html
+class_Frontend_Output_TStringlist.html
+class_Frontend_Output_TStringlist.TFrontend_Output_TStringlist.html
+class_Frontend_Output_TVirtualTreeview.html
+class_Frontend_Output_TVirtualTreeview.TFrontend_Output_TVirtualTreeview.html
+class_Frontend_Output_TVirtualTreeview.TNodeData.html
+CSVFile.html
+CSVFile.TCellChange.html
+CSVFile.TCSVFile.html
+CSVFile.TCSVPos.html
+CSVFile.TFrontend_Output_Base.html
+
+[INFOTYPES]
+
+[MERGE FILES]

@@ -1,0 +1,1519 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>TCSVFile: CSVFile: Klasse TCSVFile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="PasDoc 0.16.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<div class="container"><div class="navigation">
+<h2><a href="index.html">TCSVFile</a></h2><ul><li><a href="AllUnits.html">Units</a></li><li><a href="ClassHierarchy.html">Klassenhierarchie</a></li><li><a href="AllClasses.html">Klassen, Interfaces und Objects</a></li><li><a href="AllTypes.html">Datentypen</a></li><li><a href="AllVariables.html">Variablen</a></li><li><a href="AllConstants.html">Konstanten</a></li><li><a href="AllFunctions.html">Funktionen und Prozeduren</a></li><li><a href="AllIdentifiers.html">Bezeichner</a></li><li><form class="search-form" action="tipue_results.html"><div class="search-input"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required><div class="search-button"><input type="button" id="tipue_search_button" onclick="this.form.submit();"></div></div></form>
+<div style="clear: both"></div>
+</li></ul></div><div class="content">
+<span id="TCSVFile"></span><h1 class="cio">Klasse TCSVFile</h1>
+<div class="sections">
+<div class="one_section"><a class="section" href="#PasDoc-Description">Beschreibung</a></div><div class="one_section"><a class="section" href="#PasDoc-Hierarchy">Hierarchie</a></div><div class="one_section"><a class="section" href="#PasDoc-Fields">Felder</a></div><div class="one_section"><a class="section" href="#PasDoc-Methods">Methoden</a></div><div class="one_section"><a class="section" href="#PasDoc-Properties">Eigenschaften</a></div></div>
+<span id="PasDoc-Description"></span><h2 class="unit">Unit</h2>
+<p class="unitlink">
+<a href="CSVFile.html">CSVFile</a></p>
+<h2 class="declaration">Deklaration</h2>
+<p class="declaration">
+<code>type TCSVFile = class(TObject)</code></p>
+<h2 class="description">Beschreibung</h2>
+<p>
+TCSVFile - Eine Klasse zur Verwaltung und Verarbeitung von CSV-Dateien <br>
+
+<p>Diese Klasse bietet eine Vielzahl an Methoden, um CSV-Dateien zu laden, zu speichern, zu durchsuchen, <br> zu bearbeiten und zu analysieren. Sie unterstützt grundlegende Operationen wie das Einfügen, Löschen und <br> Kombinieren von Zeilen und Spalten, das Berechnen von Werten (z.B. Summe, Durchschnitt) sowie das Suchen <br> und Ersetzen von Text in Zellen. Die Klasse ermöglicht die Verarbeitung von CSV-Daten mit flexiblen <br> Trennzeichen, Zeichencodierungen und Zeilenumbruchstilen. <br> <br>
+
+<p>Die Klasse enthält auch ein System zur Nachverfolgung von Änderungen an Zellen, mit Unterstützung für die <br> Historie von Zellenänderungen. Ein Event-Handling-Mechanismus erlaubt das Erstellen benutzerdefinierter <br> Reaktionen bei bestimmten Operationen, wie z.B. das Lesen von Zeilen oder das Finden von Suchtreffern. <br> <br>
+
+<p>Sie können die CSV-Daten in verschiedenen Formaten exportieren, einschließlich XML, JSON und XLSX. <br> <br>
+
+<p>Über die `Output`-Eigenschaft können Klassen, die vom Typ `TFrontend_Output_Base` abgeleitet sind, verwendet <br> werden. Dies ermöglicht die flexible Anbindung an beliebige Komponenten, APIs, Datenbanken, Files oder andere <br> externe Systeme, um CSV-Daten nach Bedarf weiterzugeben oder zu verarbeiten. <br> <br>
+
+<p>Diese Klasse bietet somit eine robuste Basis, die entweder direkt genutzt oder durch abgeleitete Klassen <br> angepasst werden kann, um spezifische Anforderungen an die Verarbeitung von CSV-Daten zu erfüllen. <br></p>
+<span id="PasDoc-Hierarchy"></span><h2 class="hierarchy">Hierarchie</h2>
+<ul class="hierarchy"><li class="ancestor">TObject</li>
+<li class="thisitem">TCSVFile</li></ul><h2 class="overview">Übersicht</h2>
+<span id="PasDoc-Fields"></span><h3 class="summary">Felder</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FAutoselect">FAutoselect</a></strong>: Boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FChanges">FChanges</a></strong>: TList&lt;<a href="CSVFile.TCellChange.html">TCellChange</a>&gt;;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FData">FData</a></strong>: TList&lt;TStringList&gt;;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FEncoding">FEncoding</a></strong>: TEncoding;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FLastMatches">FLastMatches</a></strong>: TArray&lt;<a href="CSVFile.TCSVPos.html">TCSVPos</a>&gt;;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FLastSearchPos">FLastSearchPos</a></strong>: Integer;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FLineBreakStyle">FLineBreakStyle</a></strong>: <a href="CSVFile.html#TLineBreakStyle">TLineBreakStyle</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FOnAfterReadRow">FOnAfterReadRow</a></strong>: <a href="CSVFile.html#TOnAfterReadRow">TOnAfterReadRow</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FOnBeforeReadCell">FOnBeforeReadCell</a></strong>: <a href="CSVFile.html#TOnBeforeReadCell">TOnBeforeReadCell</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FOnBeforeReadRow">FOnBeforeReadRow</a></strong>: <a href="CSVFile.html#TOnBeforeReadRow">TOnBeforeReadRow</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FOnFound">FOnFound</a></strong>: <a href="CSVFile.html#TOnFoundEvent">TOnFoundEvent</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FOnProgress">FOnProgress</a></strong>: <a href="CSVFile.html#TProgressEvent">TProgressEvent</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FOutput">FOutput</a></strong>: <a href="CSVFile.TFrontend_Output_Base.html">TFrontend_Output_Base</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FParseTime">FParseTime</a></strong>: Integer;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FQuotes">FQuotes</a></strong>: Char;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FSeparator">FSeparator</a></strong>: Char;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FUseFastParsing">FUseFastParsing</a></strong>: Boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="CSVFile.TCSVFile.html#FUseHeader">FUseHeader</a></strong>: Boolean;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Methods"></span><h3 class="summary">Methoden</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <strong><a href="CSVFile.TCSVFile.html#Create">Create</a></strong>(AEncoding: TEncoding = nil; ASeparator: char = ',');</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>destructor <strong><a href="CSVFile.TCSVFile.html#Destroy">Destroy</a></strong>; override;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#AppendRow">AppendRow</a></strong>(ColumnCount: Integer): Integer;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#Calculate">Calculate</a></strong>(IsRow: Boolean; Index: Integer; Exclude: array of Integer; var CSVPos: <a href="CSVFile.TCSVPos.html">TCSVPos</a>; CalcType: <a href="CSVFile.html#TCalculationType">TCalculationType</a> = <a href="CSVFile.html#ctSum">ctSum</a>): Double;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#ChangesCount">ChangesCount</a></strong>: Integer;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#CombineCols">CombineCols</a></strong>(Col: Integer; BlankString: String = ''): Boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#CopyColTo">CopyColTo</a></strong>(Col1, Col2: Integer; Append: Boolean = False; Separator: Char = ' '): Boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#DeleteCol">DeleteCol</a></strong>(Index: Integer): Boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#DeleteRow">DeleteRow</a></strong>(Index: Integer): Boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#DetectDataType">DetectDataType</a></strong>(const Value: string): <a href="CSVFile.html#TDataType">TDataType</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetasText">GetasText</a></strong>(): String;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetCellChange">GetCellChange</a></strong>(Row, Col: Integer): <a href="CSVFile.TCellChange.html">TCellChange</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetColPos">GetColPos</a></strong>(Name: String): Integer;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetEncoding">GetEncoding</a></strong>(Filename: String; MaxBytes: Integer): TEncoding; overload;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetEncoding">GetEncoding</a></strong>(const Content: string): TEncoding; overload;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetHistory">GetHistory</a></strong>(ARow, ACol: Integer): TStringlist;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetLineBreakStyleFromFile">GetLineBreakStyleFromFile</a></strong>(Filename: String; MaxBytes: Integer = 4096): <a href="CSVFile.html#TLineBreakStyle">TLineBreakStyle</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetLineBreakStyleFromString">GetLineBreakStyleFromString</a></strong>(const Content: string): <a href="CSVFile.html#TLineBreakStyle">TLineBreakStyle</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetQuoteFromFile">GetQuoteFromFile</a></strong>(Separator: Char; Filename: String; MaxBytes: Integer = 4096): Char;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetQuoteFromString">GetQuoteFromString</a></strong>(Separator: Char; Text: String; MaxBytes: Integer = 4096): Char;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetSeparatorFromFile">GetSeparatorFromFile</a></strong>(Filename: String; MaxBytes: Integer = 4096): Char;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetSeparatorFromString">GetSeparatorFromString</a></strong>(Text: String; MaxBytes: Integer = 4096): Char;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#HasChanges">HasChanges</a></strong>: Boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#HasSearchNext">HasSearchNext</a></strong>: Boolean;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#InsertCol">InsertCol</a></strong>(ColumnIndex: Integer; const Header: string = ''): Integer;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#InsertRow">InsertRow</a></strong>(ColumnCount: Integer; Position: Integer): Integer;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#IsCellChanged">IsCellChanged</a></strong>(Row, Col: Integer): Boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#Replace">Replace</a></strong>(SearchText: String; ReplaceText: String; Column: Integer = -1; RegexOn: Boolean = False; CaseSensitive: Boolean = True; ReplaceAll: Boolean = True; UpdateGrid: Boolean = True): Integer;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#Search">Search</a></strong>(SearchText: String; Column: Integer = -1; RegexOn: Boolean = False): <a href="CSVFile.TCSVPos.html">TCSVPos</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#SearchEx">SearchEx</a></strong>(SearchText: String; Column: Integer = -1; RegexOn: Boolean = False): TArray&lt;<a href="CSVFile.TCSVPos.html">TCSVPos</a>&gt;;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#SearchFirst">SearchFirst</a></strong>(): <a href="CSVFile.TCSVPos.html">TCSVPos</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#SearchLast">SearchLast</a></strong>(): <a href="CSVFile.TCSVPos.html">TCSVPos</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#SearchNext">SearchNext</a></strong>(): <a href="CSVFile.TCSVPos.html">TCSVPos</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetCell">GetCell</a></strong>(Row, Col: Integer): string;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetCellChanged">GetCellChanged</a></strong>(Row, Col: Integer): Boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetColCount">GetColCount</a></strong>(Row: Integer): Integer;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetLineBreak">GetLineBreak</a></strong>: string;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetRowCount">GetRowCount</a></strong>: Integer;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code>function <strong><a href="CSVFile.TCSVFile.html#GetSize">GetSize</a></strong>: Integer;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#Clear">Clear</a></strong>();</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#ClearChanges">ClearChanges</a></strong>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#ClearCol">ClearCol</a></strong>(Col: Integer);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#CopyToList">CopyToList</a></strong>(Col: Integer; TargetList: TStringList; IgnoreHeader: Boolean = False);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#ExportAsJSON">ExportAsJSON</a></strong>(const Filename: string);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#ExportAsXLSX">ExportAsXLSX</a></strong>(const Filename: string);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#ExportAsXML">ExportAsXML</a></strong>(const Filename: string);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#InsertFromText">InsertFromText</a></strong>(const Content: string; SepChar: Char = #0);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#LoadFromFile">LoadFromFile</a></strong>(const FileName: string; AnalyzeFile:Boolean=true);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#LoadMultilineCSVFromFile">LoadMultilineCSVFromFile</a></strong>(const FileName: string);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#LoadMultilineCSVFromString">LoadMultilineCSVFromString</a></strong>(const CSVText: string);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#MoveColBy">MoveColBy</a></strong>(Col, Count: Integer);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#MoveRowBy">MoveRowBy</a></strong>(Row, Count: Integer);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#ParseFastCSVFromFile">ParseFastCSVFromFile</a></strong>(const FileName: string);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#ParseMultilineCSV">ParseMultilineCSV</a></strong>(Stream: TStream);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#ParseMultilineCSVold">ParseMultilineCSVold</a></strong>(const FileName: string);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#RemoveRange">RemoveRange</a></strong>(StartIndex, Count: Integer);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#RowToList">RowToList</a></strong>(RowNumber: Integer; List: TStringList);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#SaveToFile">SaveToFile</a></strong>(const FileName: string);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#Sort">Sort</a></strong>(Column: Integer; Descending: Boolean = false; IgnoreHeader: Boolean = true);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#SortExt">SortExt</a></strong>(Column: Integer; Descending: Boolean = false; IgnoreHeader: Boolean = true; DataType: <a href="CSVFile.html#TDataType">TDataType</a> = <a href="CSVFile.html#dtString">dtString</a>);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#SwapCol">SwapCol</a></strong>(Col1, Col2: Integer);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#SwapRow">SwapRow</a></strong>(Row1, Row2: Integer);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#AddValueToArray">AddValueToArray</a></strong>(var Values: TArray&lt;String&gt;; const CellStrValue: String);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#Assign">Assign</a></strong>(Source: TList&lt;TStringList&gt;);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#ParseCSVContent">ParseCSVContent</a></strong>(const Content: string);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#ProcessRecord">ProcessRecord</a></strong>(Fields: TStringList);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#SetCell">SetCell</a></strong>(Row, Col: Integer; const Value: string);</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#SetCellChanged">SetCellChanged</a></strong>(Row, Col: Integer; const Value: Boolean);</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="CSVFile.TCSVFile.html#SetOuput">SetOuput</a></strong>(Value: <a href="CSVFile.TFrontend_Output_Base.html">TFrontend_Output_Base</a>);</code></td>
+</tr>
+</table>
+<span id="PasDoc-Properties"></span><h3 class="summary">Eigenschaften</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#Autoselect">Autoselect</a></strong>: Boolean read <a href="CSVFile.TCSVFile.html#FAutoselect">fAutoselect</a> write <a href="CSVFile.TCSVFile.html#FAutoselect">fAutoselect</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#Cell">Cell</a></strong>[Row,Col:Integer]: string read <a href="CSVFile.TCSVFile.html#GetCell">GetCell</a> write <a href="CSVFile.TCSVFile.html#SetCell">SetCell</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#Changed">Changed</a></strong>[Row,Col:Integer]: Boolean read <a href="CSVFile.TCSVFile.html#GetCellChanged">GetCellChanged</a> write <a href="CSVFile.TCSVFile.html#SetCellChanged">SetCellChanged</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#ColCount">ColCount</a></strong>[Row:Integer]: Integer read <a href="CSVFile.TCSVFile.html#GetColCount">GetColCount</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#Data">Data</a></strong>: TList&lt;TStringList&gt; read <a href="CSVFile.TCSVFile.html#FData">fData</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#Encoding">Encoding</a></strong>: TEncoding read <a href="CSVFile.TCSVFile.html#FEncoding">FEncoding</a> write <a href="CSVFile.TCSVFile.html#FEncoding">FEncoding</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#LineBreakStyle">LineBreakStyle</a></strong>: <a href="CSVFile.html#TLineBreakStyle">TLineBreakStyle</a> read <a href="CSVFile.TCSVFile.html#FLineBreakStyle">FLineBreakStyle</a> write <a href="CSVFile.TCSVFile.html#FLineBreakStyle">FLineBreakStyle</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#OnAfterReadRow">OnAfterReadRow</a></strong>: <a href="CSVFile.html#TOnAfterReadRow">TOnAfterReadRow</a> read <a href="CSVFile.TCSVFile.html#FOnAfterReadRow">FOnAfterReadRow</a> write <a href="CSVFile.TCSVFile.html#FOnAfterReadRow">FOnAfterReadRow</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#OnBeforeReadCell">OnBeforeReadCell</a></strong>: <a href="CSVFile.html#TOnBeforeReadCell">TOnBeforeReadCell</a> read <a href="CSVFile.TCSVFile.html#FOnBeforeReadCell">FOnBeforeReadCell</a> write <a href="CSVFile.TCSVFile.html#FOnBeforeReadCell">FOnBeforeReadCell</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#OnBeforeReadRow">OnBeforeReadRow</a></strong>: <a href="CSVFile.html#TOnBeforeReadRow">TOnBeforeReadRow</a> read <a href="CSVFile.TCSVFile.html#FOnBeforeReadRow">FOnBeforeReadRow</a> write <a href="CSVFile.TCSVFile.html#FOnBeforeReadRow">FOnBeforeReadRow</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#OnFound">OnFound</a></strong>: <a href="CSVFile.html#TOnFoundEvent">TOnFoundEvent</a> read <a href="CSVFile.TCSVFile.html#FOnFound">FOnFound</a> write <a href="CSVFile.TCSVFile.html#FOnFound">FOnFound</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#OnProgress">OnProgress</a></strong>: <a href="CSVFile.html#TProgressEvent">TProgressEvent</a> read <a href="CSVFile.TCSVFile.html#FOnProgress">FOnProgress</a> write <a href="CSVFile.TCSVFile.html#FOnProgress">FOnProgress</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#Output">Output</a></strong>: <a href="CSVFile.TFrontend_Output_Base.html">TFrontend_Output_Base</a> read <a href="CSVFile.TCSVFile.html#FOutput">FOutput</a> write <a href="CSVFile.TCSVFile.html#SetOuput">SetOuput</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#ParseTime">ParseTime</a></strong>: Integer read <a href="CSVFile.TCSVFile.html#FParseTime">FParseTime</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#RowCount">RowCount</a></strong>: Integer read <a href="CSVFile.TCSVFile.html#GetRowCount">GetRowCount</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#Separator">Separator</a></strong>: Char read <a href="CSVFile.TCSVFile.html#FSeparator">FSeparator</a> write <a href="CSVFile.TCSVFile.html#FSeparator">FSeparator</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#Size">Size</a></strong>: Integer read <a href="CSVFile.TCSVFile.html#GetSize">GetSize</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#UseFastParsing">UseFastParsing</a></strong> : Boolean read <a href="CSVFile.TCSVFile.html#FUseFastParsing">FUseFastParsing</a> write <a href="CSVFile.TCSVFile.html#FUseFastParsing">FUseFastParsing</a>;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="CSVFile.TCSVFile.html#UseHeader">UseHeader</a></strong>: Boolean read <a href="CSVFile.TCSVFile.html#FUseHeader">FUseHeader</a> write <a href="CSVFile.TCSVFile.html#FUseHeader">FUseHeader</a>;</code></td>
+</tr>
+</table>
+<h2 class="description">Beschreibung</h2>
+<h3 class="detail">Felder</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FAutoselect"></span><code><strong>FAutoselect</strong>: Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FChanges"></span><code><strong>FChanges</strong>: TList&lt;<a href="CSVFile.TCellChange.html">TCellChange</a>&gt;;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Liste für geänderte Zellen in der Form [Row][Cell][History]</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FData"></span><code><strong>FData</strong>: TList&lt;TStringList&gt;;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+CSV-Daten in der Form [Row]Cell[]</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FEncoding"></span><code><strong>FEncoding</strong>: TEncoding;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Kodierung der CSV-Datei</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FLastMatches"></span><code><strong>FLastMatches</strong>: TArray&lt;<a href="CSVFile.TCSVPos.html">TCSVPos</a>&gt;;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Liste der letzten Suchtreffer</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FLastSearchPos"></span><code><strong>FLastSearchPos</strong>: Integer;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Position des letzten Suchtreffers</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FLineBreakStyle"></span><code><strong>FLineBreakStyle</strong>: <a href="CSVFile.html#TLineBreakStyle">TLineBreakStyle</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Zeilenumbruchstil für die CSV-Datei (lbsWindows, lbsMac, lbsUnix, lbsNone)</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FOnAfterReadRow"></span><code><strong>FOnAfterReadRow</strong>: <a href="CSVFile.html#TOnAfterReadRow">TOnAfterReadRow</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Event, das nach dem Lesen einer Zeile ausgelöst wird</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FOnBeforeReadCell"></span><code><strong>FOnBeforeReadCell</strong>: <a href="CSVFile.html#TOnBeforeReadCell">TOnBeforeReadCell</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Event, das vor dem Lesen einer Zelle ausgelöst wird</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FOnBeforeReadRow"></span><code><strong>FOnBeforeReadRow</strong>: <a href="CSVFile.html#TOnBeforeReadRow">TOnBeforeReadRow</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Event, das vor dem Lesen einer Zeile ausgelöst wird</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FOnFound"></span><code><strong>FOnFound</strong>: <a href="CSVFile.html#TOnFoundEvent">TOnFoundEvent</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Event, das bei einem Suchtreffer ausgelöst wird</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FOnProgress"></span><code><strong>FOnProgress</strong>: <a href="CSVFile.html#TProgressEvent">TProgressEvent</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Event, das bei Fortschritt in einem Vorgang ausgelöst wird</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FOutput"></span><code><strong>FOutput</strong>: <a href="CSVFile.TFrontend_Output_Base.html">TFrontend_Output_Base</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Referenz auf die Ausgabekomponente</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FParseTime"></span><code><strong>FParseTime</strong>: Integer;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FQuotes"></span><code><strong>FQuotes</strong>: Char;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Zeichen für Anführungszeichen in der CSV-Datei</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FSeparator"></span><code><strong>FSeparator</strong>: Char;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Trennzeichen für die CSV-Datei</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FUseFastParsing"></span><code><strong>FUseFastParsing</strong>: Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FUseHeader"></span><code><strong>FUseHeader</strong>: Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt an, ob die CSV-Datei eine Header-Zeile enthält</p>
+</td></tr>
+</table>
+<h3 class="detail">Methoden</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Create"></span><code>constructor <strong>Create</strong>(AEncoding: TEncoding = nil; ASeparator: char = ',');</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+TCSVFile.Create - Konstruktor für die CSV-Datei-Klasse <br> <br>
+
+<p>Dieser Konstruktor initialisiert eine Instanz der TCSVFile-Klasse. Er setzt die Standardwerte <br> für die CSV-Datei und erstellt die notwendigen Datenstrukturen für die Speicherung der CSV-Daten <br> und Änderungen. Zusätzlich ermöglicht der Konstruktor das Festlegen eines spezifischen Encodings <br> und Trennzeichens, wenn dies gewünscht wird. <br> <br>
+
+<p>Parameter: <br> AEncoding: TEncoding (optional) - Das gewünschte Encoding der CSV-Datei. Falls nicht angegeben, <br> wird UTF-8 als Standard verwendet. <br> ASeparator: Char (optional) - Das Trennzeichen, das zur Trennung von Feldern in der CSV-Datei <br> verwendet wird. Standardmäßig wird das Komma (',') verwendet. <br> <br>
+
+<p>Es werden die folgenden Felder der TCSVFile-Klasse initialisiert: <br> - FData: TList&lt;TStringList&gt; - Eine Liste, die die Daten der CSV-Datei speichert. <br> - FChanges: TList&lt;TCellChange&gt; - Eine Liste, die die Änderungen an den Zellen speichert. <br> - FEncoding: TEncoding - Das Encoding für die CSV-Datei, standardmäßig UTF-8. <br> - FSeparator: Char - Das Trennzeichen für die CSV-Datei, standardmäßig das Komma (','). <br> - FQuotes: Char - Das Zeichen für Anführungszeichen in der CSV-Datei, standardmäßig das doppelte Anführungszeichen ('&quot;'). <br> - FUseHeader: Boolean - Gibt an, ob die CSV-Datei eine Kopfzeile enthält. Standardmäßig auf `True` gesetzt. <br> - FLineBreakStyle: TLineBreakStyle - Der Stil für den Zeilenumbruch in der CSV-Datei, standardmäßig `lbsWindows`. <br> <br>
+
+<p>Beispiel: <br> CSVFile := TCSVFile.Create(TEncoding.UTF8, ';'); // Erstellt eine CSV-Datei mit UTF-8 Encoding und Semikolon als Trennzeichen.</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Destroy"></span><code>destructor <strong>Destroy</strong>; override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Zerstört das Objekt und gibt Ressourcen frei</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="AppendRow"></span><code>function <strong>AppendRow</strong>(ColumnCount: Integer): Integer;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Fügt eine neue Zeile ans Ende der CSV an</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Calculate"></span><code>function <strong>Calculate</strong>(IsRow: Boolean; Index: Integer; Exclude: array of Integer; var CSVPos: <a href="CSVFile.TCSVPos.html">TCSVPos</a>; CalcType: <a href="CSVFile.html#TCalculationType">TCalculationType</a> = <a href="CSVFile.html#ctSum">ctSum</a>): Double;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Führt Berechnungen für eine Zeile oder Spalte durch</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ChangesCount"></span><code>function <strong>ChangesCount</strong>: Integer;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die Anzahl der Änderungen zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="CombineCols"></span><code>function <strong>CombineCols</strong>(Col: Integer; BlankString: String = ''): Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Kombiniert alle Zellen einer Spalte zu einer einzigen Zelle</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="CopyColTo"></span><code>function <strong>CopyColTo</strong>(Col1, Col2: Integer; Append: Boolean = False; Separator: Char = ' '): Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Kopiert den Inhalt einer Spalte in eine andere</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="DeleteCol"></span><code>function <strong>DeleteCol</strong>(Index: Integer): Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Löscht eine Spalte</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="DeleteRow"></span><code>function <strong>DeleteRow</strong>(Index: Integer): Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Löscht eine Zeile</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="DetectDataType"></span><code>function <strong>DetectDataType</strong>(const Value: string): <a href="CSVFile.html#TDataType">TDataType</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Erkennt den Datentyp des Wertes einer Zelle</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetasText"></span><code>function <strong>GetasText</strong>(): String;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die CSV-Daten als Text zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetCellChange"></span><code>function <strong>GetCellChange</strong>(Row, Col: Integer): <a href="CSVFile.TCellChange.html">TCellChange</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die Änderung einer bestimmten Zelle zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetColPos"></span><code>function <strong>GetColPos</strong>(Name: String): Integer;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die Position der Spalte mit dem angegebenen Namen zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetEncoding"></span><code>function <strong>GetEncoding</strong>(Filename: String; MaxBytes: Integer): TEncoding; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetEncoding"></span><code>function <strong>GetEncoding</strong>(const Content: string): TEncoding; overload;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetHistory"></span><code>function <strong>GetHistory</strong>(ARow, ACol: Integer): TStringlist;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die Historie von Änderungen in einer Zelle zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetLineBreakStyleFromFile"></span><code>function <strong>GetLineBreakStyleFromFile</strong>(Filename: String; MaxBytes: Integer = 4096): <a href="CSVFile.html#TLineBreakStyle">TLineBreakStyle</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetLineBreakStyleFromString"></span><code>function <strong>GetLineBreakStyleFromString</strong>(const Content: string): <a href="CSVFile.html#TLineBreakStyle">TLineBreakStyle</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetQuoteFromFile"></span><code>function <strong>GetQuoteFromFile</strong>(Separator: Char; Filename: String; MaxBytes: Integer = 4096): Char;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetQuoteFromString"></span><code>function <strong>GetQuoteFromString</strong>(Separator: Char; Text: String; MaxBytes: Integer = 4096): Char;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetSeparatorFromFile"></span><code>function <strong>GetSeparatorFromFile</strong>(Filename: String; MaxBytes: Integer = 4096): Char;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Liest den Separator aus einer Datei</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="GetSeparatorFromString"></span><code>function <strong>GetSeparatorFromString</strong>(Text: String; MaxBytes: Integer = 4096): Char;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Liest den Separator aus einem Textstring</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="HasChanges"></span><code>function <strong>HasChanges</strong>: Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Prüft, ob Änderungen an den Daten vorgenommen wurden</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="HasSearchNext"></span><code>function <strong>HasSearchNext</strong>: Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Überprüft, ob es einen nächsten Suchtreffer gibt</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="InsertCol"></span><code>function <strong>InsertCol</strong>(ColumnIndex: Integer; const Header: string = ''): Integer;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Fügt eine neue Spalte mit Header ein</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="InsertRow"></span><code>function <strong>InsertRow</strong>(ColumnCount: Integer; Position: Integer): Integer;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Fügt eine neue Zeile an einer angegebenen Position ein</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="IsCellChanged"></span><code>function <strong>IsCellChanged</strong>(Row, Col: Integer): Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Prüft, ob eine Zelle geändert wurde</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Replace"></span><code>function <strong>Replace</strong>(SearchText: String; ReplaceText: String; Column: Integer = -1; RegexOn: Boolean = False; CaseSensitive: Boolean = True; ReplaceAll: Boolean = True; UpdateGrid: Boolean = True): Integer;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Sucht und ersetzt Text in einer Spalte</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Search"></span><code>function <strong>Search</strong>(SearchText: String; Column: Integer = -1; RegexOn: Boolean = False): <a href="CSVFile.TCSVPos.html">TCSVPos</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Sucht nach einem Text in einer Spalte, Standard-Suche</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SearchEx"></span><code>function <strong>SearchEx</strong>(SearchText: String; Column: Integer = -1; RegexOn: Boolean = False): TArray&lt;<a href="CSVFile.TCSVPos.html">TCSVPos</a>&gt;;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Erweitere Suche in einer Spalte mit Regex-Unterstützung</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SearchFirst"></span><code>function <strong>SearchFirst</strong>(): <a href="CSVFile.TCSVPos.html">TCSVPos</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die Position des ersten Suchtreffers zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SearchLast"></span><code>function <strong>SearchLast</strong>(): <a href="CSVFile.TCSVPos.html">TCSVPos</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die Position des letzten Suchtreffers zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SearchNext"></span><code>function <strong>SearchNext</strong>(): <a href="CSVFile.TCSVPos.html">TCSVPos</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die Position des nächsten Suchtreffers zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="GetCell"></span><code>function <strong>GetCell</strong>(Row, Col: Integer): string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt den Inhalt einer Zelle an der angegebenen Zeile und Spalte zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="GetCellChanged"></span><code>function <strong>GetCellChanged</strong>(Row, Col: Integer): Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Getter für CellChanged, prüft ob eine Zelle geändert wurde</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="GetColCount"></span><code>function <strong>GetColCount</strong>(Row: Integer): Integer;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die Anzahl der Spalten in einer Zeile zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="GetLineBreak"></span><code>function <strong>GetLineBreak</strong>: string;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt den verwendeten Zeilenumbruchstil als String zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="GetRowCount"></span><code>function <strong>GetRowCount</strong>: Integer;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die Anzahl der Zeilen zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="GetSize"></span><code>function <strong>GetSize</strong>: Integer;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die Größe der Daten (z.B. Anzahl der Zellen) zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Clear"></span><code>procedure <strong>Clear</strong>();</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Leert die CSV-Daten und setzt alle Änderungen zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ClearChanges"></span><code>procedure <strong>ClearChanges</strong>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Setzt die Änderungs-Liste zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ClearCol"></span><code>procedure <strong>ClearCol</strong>(Col: Integer);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Löscht alle Zellen in einer bestimmten Spalte</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="CopyToList"></span><code>procedure <strong>CopyToList</strong>(Col: Integer; TargetList: TStringList; IgnoreHeader: Boolean = False);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Kopiert eine Spalte in eine TStringList</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ExportAsJSON"></span><code>procedure <strong>ExportAsJSON</strong>(const Filename: string);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Exportiert die CSV-Daten als JSON-Datei</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ExportAsXLSX"></span><code>procedure <strong>ExportAsXLSX</strong>(const Filename: string);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Exportiert die CSV-Daten als XLSX-Datei</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ExportAsXML"></span><code>procedure <strong>ExportAsXML</strong>(const Filename: string);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Exportiert die CSV-Daten als XML-Datei</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="InsertFromText"></span><code>procedure <strong>InsertFromText</strong>(const Content: string; SepChar: Char = #0);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Fügt CSV-Daten aus einem Textstring ein</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="LoadFromFile"></span><code>procedure <strong>LoadFromFile</strong>(const FileName: string; AnalyzeFile:Boolean=true);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Lädt CSV-Daten aus einer Datei</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="LoadMultilineCSVFromFile"></span><code>procedure <strong>LoadMultilineCSVFromFile</strong>(const FileName: string);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Lädt eine CSV-Datei mit mehreren Zeilen von einer Datei</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="LoadMultilineCSVFromString"></span><code>procedure <strong>LoadMultilineCSVFromString</strong>(const CSVText: string);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Lädt eine CSV-Datei mit mehreren Zeilen aus einem String</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="MoveColBy"></span><code>procedure <strong>MoveColBy</strong>(Col, Count: Integer);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gesamte Spalten um eine bestimmte Anzahl verschieben (Minus nach links, Positiv nach rechts)</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="MoveRowBy"></span><code>procedure <strong>MoveRowBy</strong>(Row, Count: Integer);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gesamte Zeile um eine bestimmte Anzahl verschieben (Minus nach Oben, Positiv nach Unten)</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ParseFastCSVFromFile"></span><code>procedure <strong>ParseFastCSVFromFile</strong>(const FileName: string);</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ParseMultilineCSV"></span><code>procedure <strong>ParseMultilineCSV</strong>(Stream: TStream);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Parst eine CSV-Datei mit mehreren Zeilen aus einem Stream</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ParseMultilineCSVold"></span><code>procedure <strong>ParseMultilineCSVold</strong>(const FileName: string);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Alte Methode, um eine CSV-Datei mit mehreren Zeilen zu parsen</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="RemoveRange"></span><code>procedure <strong>RemoveRange</strong>(StartIndex, Count: Integer);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Entfernt einen Bereich von Zellen</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="RowToList"></span><code>procedure <strong>RowToList</strong>(RowNumber: Integer; List: TStringList);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Kopiert eine Zeile in eine TStringList</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SaveToFile"></span><code>procedure <strong>SaveToFile</strong>(const FileName: string);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Speichert die CSV-Daten in einer Datei</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Sort"></span><code>procedure <strong>Sort</strong>(Column: Integer; Descending: Boolean = false; IgnoreHeader: Boolean = true);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Sortiert eine Spalte aufsteigend oder absteigend</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SortExt"></span><code>procedure <strong>SortExt</strong>(Column: Integer; Descending: Boolean = false; IgnoreHeader: Boolean = true; DataType: <a href="CSVFile.html#TDataType">TDataType</a> = <a href="CSVFile.html#dtString">dtString</a>);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Erweiterte Sortierung mit Datentyp-Unterstützung</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SwapCol"></span><code>procedure <strong>SwapCol</strong>(Col1, Col2: Integer);</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="SwapRow"></span><code>procedure <strong>SwapRow</strong>(Row1, Row2: Integer);</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="AddValueToArray"></span><code>procedure <strong>AddValueToArray</strong>(var Values: TArray&lt;String&gt;; const CellStrValue: String);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Funktion zum Hinzufügen von Werten zum dynamischen Array</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="Assign"></span><code>procedure <strong>Assign</strong>(Source: TList&lt;TStringList&gt;);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Weist Daten aus einer bestehenden Liste zu</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="ParseCSVContent"></span><code>procedure <strong>ParseCSVContent</strong>(const Content: string);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Parst CSV-Daten aus einem String</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="ProcessRecord"></span><code>procedure <strong>ProcessRecord</strong>(Fields: TStringList);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Verarbeitet ein Datensatz-Objekt aus einer TStringList</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="SetCell"></span><code>procedure <strong>SetCell</strong>(Row, Col: Integer; const Value: string);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Setzt den Wert einer Zelle an der angegebenen Zeile und Spalte</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="SetCellChanged"></span><code>procedure <strong>SetCellChanged</strong>(Row, Col: Integer; const Value: Boolean);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Setter für CellChanged, markiert eine Zelle als geändert oder nicht</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="SetOuput"></span><code>procedure <strong>SetOuput</strong>(Value: <a href="CSVFile.TFrontend_Output_Base.html">TFrontend_Output_Base</a>);</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Setzt die Ausgabekomponente (Output)</p>
+</td></tr>
+</table>
+<h3 class="detail">Eigenschaften</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Autoselect"></span><code>property <strong>Autoselect</strong>: Boolean read <a href="CSVFile.TCSVFile.html#FAutoselect">fAutoselect</a> write <a href="CSVFile.TCSVFile.html#FAutoselect">fAutoselect</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Cell"></span><code>property <strong>Cell</strong>[Row,Col:Integer]: string read <a href="CSVFile.TCSVFile.html#GetCell">GetCell</a> write <a href="CSVFile.TCSVFile.html#SetCell">SetCell</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Zugriff auf eine Zelle</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Changed"></span><code>property <strong>Changed</strong>[Row,Col:Integer]: Boolean read <a href="CSVFile.TCSVFile.html#GetCellChanged">GetCellChanged</a> write <a href="CSVFile.TCSVFile.html#SetCellChanged">SetCellChanged</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Getter und Setter für CellChanged</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ColCount"></span><code>property <strong>ColCount</strong>[Row:Integer]: Integer read <a href="CSVFile.TCSVFile.html#GetColCount">GetColCount</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die Anzahl der Spalten für eine Zeile zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Data"></span><code>property <strong>Data</strong>: TList&lt;TStringList&gt; read <a href="CSVFile.TCSVFile.html#FData">fData</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Zugriff auf die zugrunde liegenden CSV-Daten</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Encoding"></span><code>property <strong>Encoding</strong>: TEncoding read <a href="CSVFile.TCSVFile.html#FEncoding">FEncoding</a> write <a href="CSVFile.TCSVFile.html#FEncoding">FEncoding</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Legt die Codierung für die CSV-Datei fest</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="LineBreakStyle"></span><code>property <strong>LineBreakStyle</strong>: <a href="CSVFile.html#TLineBreakStyle">TLineBreakStyle</a> read <a href="CSVFile.TCSVFile.html#FLineBreakStyle">FLineBreakStyle</a> write <a href="CSVFile.TCSVFile.html#FLineBreakStyle">FLineBreakStyle</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Legt den Zeilenumbruchstil für die CSV-Datei fest</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="OnAfterReadRow"></span><code>property <strong>OnAfterReadRow</strong>: <a href="CSVFile.html#TOnAfterReadRow">TOnAfterReadRow</a> read <a href="CSVFile.TCSVFile.html#FOnAfterReadRow">FOnAfterReadRow</a> write <a href="CSVFile.TCSVFile.html#FOnAfterReadRow">FOnAfterReadRow</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Ereignis nach dem Lesen einer Zeile</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="OnBeforeReadCell"></span><code>property <strong>OnBeforeReadCell</strong>: <a href="CSVFile.html#TOnBeforeReadCell">TOnBeforeReadCell</a> read <a href="CSVFile.TCSVFile.html#FOnBeforeReadCell">FOnBeforeReadCell</a> write <a href="CSVFile.TCSVFile.html#FOnBeforeReadCell">FOnBeforeReadCell</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Ereignis vor dem Lesen einer Zelle</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="OnBeforeReadRow"></span><code>property <strong>OnBeforeReadRow</strong>: <a href="CSVFile.html#TOnBeforeReadRow">TOnBeforeReadRow</a> read <a href="CSVFile.TCSVFile.html#FOnBeforeReadRow">FOnBeforeReadRow</a> write <a href="CSVFile.TCSVFile.html#FOnBeforeReadRow">FOnBeforeReadRow</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Ereignis vor dem Lesen einer Zeile</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="OnFound"></span><code>property <strong>OnFound</strong>: <a href="CSVFile.html#TOnFoundEvent">TOnFoundEvent</a> read <a href="CSVFile.TCSVFile.html#FOnFound">FOnFound</a> write <a href="CSVFile.TCSVFile.html#FOnFound">FOnFound</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Ereignis, wenn ein Suchtreffer gefunden wurde</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="OnProgress"></span><code>property <strong>OnProgress</strong>: <a href="CSVFile.html#TProgressEvent">TProgressEvent</a> read <a href="CSVFile.TCSVFile.html#FOnProgress">FOnProgress</a> write <a href="CSVFile.TCSVFile.html#FOnProgress">FOnProgress</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Ereignis für den Fortschritt der Operation</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Output"></span><code>property <strong>Output</strong>: <a href="CSVFile.TFrontend_Output_Base.html">TFrontend_Output_Base</a> read <a href="CSVFile.TCSVFile.html#FOutput">FOutput</a> write <a href="CSVFile.TCSVFile.html#SetOuput">SetOuput</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Zugriff auf die Ausgabe-Komponente</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ParseTime"></span><code>property <strong>ParseTime</strong>: Integer read <a href="CSVFile.TCSVFile.html#FParseTime">FParseTime</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="RowCount"></span><code>property <strong>RowCount</strong>: Integer read <a href="CSVFile.TCSVFile.html#GetRowCount">GetRowCount</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die Anzahl der Zeilen in der CSV zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Separator"></span><code>property <strong>Separator</strong>: Char read <a href="CSVFile.TCSVFile.html#FSeparator">FSeparator</a> write <a href="CSVFile.TCSVFile.html#FSeparator">FSeparator</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Legt das Trennzeichen für die CSV-Datei fest</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Size"></span><code>property <strong>Size</strong>: Integer read <a href="CSVFile.TCSVFile.html#GetSize">GetSize</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt die Größe der CSV-Daten zurück</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="UseFastParsing"></span><code>property <strong>UseFastParsing</strong> : Boolean read <a href="CSVFile.TCSVFile.html#FUseFastParsing">FUseFastParsing</a> write <a href="CSVFile.TCSVFile.html#FUseFastParsing">FUseFastParsing</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="UseHeader"></span><code>property <strong>UseHeader</strong>: Boolean read <a href="CSVFile.TCSVFile.html#FUseHeader">FUseHeader</a> write <a href="CSVFile.TCSVFile.html#FUseHeader">FUseHeader</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Gibt an, ob die CSV-Datei einen Header enthält</p>
+</td></tr>
+</table>
+<hr><span class="appinfo"><em>Erstellt mit <a href="https://pasdoc.github.io/">PasDoc 0.16.0</a>. </em>
+</span>
+</div></div></body></html>

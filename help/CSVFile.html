@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>TCSVFile: CSVFile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="PasDoc 0.16.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<div class="container"><div class="navigation">
+<h2><a href="index.html">TCSVFile</a></h2><ul><li><a href="AllUnits.html">Units</a></li><li><a href="ClassHierarchy.html">Klassenhierarchie</a></li><li><a href="AllClasses.html">Klassen, Interfaces und Objects</a></li><li><a href="AllTypes.html">Datentypen</a></li><li><a href="AllVariables.html">Variablen</a></li><li><a href="AllConstants.html">Konstanten</a></li><li><a href="AllFunctions.html">Funktionen und Prozeduren</a></li><li><a href="AllIdentifiers.html">Bezeichner</a></li><li><form class="search-form" action="tipue_results.html"><div class="search-input"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required><div class="search-button"><input type="button" id="tipue_search_button" onclick="this.form.submit();"></div></div></form>
+<div style="clear: both"></div>
+</li></ul></div><div class="content">
+<h1 class="unit">Unit CSVFile</h1>
+<div class="sections">
+<div class="one_section"><a class="section" href="#PasDoc-Description">Beschreibung</a></div><div class="one_section"><a class="section" href="#PasDoc-Uses">Uses</a></div><div class="one_section"><a class="section" href="#PasDoc-Classes">Klassen, Interfaces und Objects</a></div><div class="one_section"><a class="section" href="#PasDoc-FuncsProcs">Funktionen und Prozeduren</a></div><div class="one_section"><a class="section" href="#PasDoc-Types">Datentypen</a></div><div class="one_section">Konstanten</div><div class="one_section">Variablen</div></div>
+<span id="PasDoc-Description"></span><h2 class="description">Beschreibung</h2>
+&nbsp;<span id="PasDoc-Uses"></span><h2 class="uses">Uses</h2>
+<ul class="useslist"><li>System.Classes</li><li>System.Generics.Collections</li><li>System.Generics.Defaults</li><li>System.JSON</li><li>System.Math</li><li>System.RegularExpressions</li><li>System.SysUtils</li><li>System.Variants</li><li>System.Win.ComObj</li><li>System.Zip</li><li>Windows</li></ul><h2 class="overview">Übersicht</h2>
+<span id="PasDoc-Classes"></span><h3 class="cio">Klassen, Interfaces und Objects</h3>
+<table class="classestable wide_list">
+<tr class="listheader">
+<th class="itemname">Name</th>
+<th class="itemdesc">Beschreibung</th>
+</tr>
+<tr class="list">
+<td class="itemname">Record&nbsp;<a class="bold" href="CSVFile.TCellChange.html"><code>TCellChange</code></a></td>
+<td class="itemdesc">&nbsp;</td>
+</tr>
+<tr class="list2">
+<td class="itemname">Klasse&nbsp;<a class="bold" href="CSVFile.TCSVFile.html"><code>TCSVFile</code></a></td>
+<td class="itemdesc">&nbsp;</td>
+</tr>
+<tr class="list">
+<td class="itemname">Record&nbsp;<a class="bold" href="CSVFile.TCSVPos.html"><code>TCSVPos</code></a></td>
+<td class="itemdesc">&nbsp;</td>
+</tr>
+<tr class="list2">
+<td class="itemname">Klasse&nbsp;<a class="bold" href="CSVFile.TFrontend_Output_Base.html"><code>TFrontend_Output_Base</code></a></td>
+<td class="itemdesc">&nbsp;</td>
+</tr>
+</table>
+<span id="PasDoc-FuncsProcs"></span><h3 class="summary">Funktionen und Prozeduren</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#Calc_Average">Calc_Average</a></strong>(const Values: TArray&lt;String&gt;): Double;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#Calc_Count">Calc_Count</a></strong>(const Values: TArray&lt;String&gt;): Integer;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#Calc_IQR">Calc_IQR</a></strong>(const Values: TArray&lt;Double&gt;): Double;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#Calc_Max">Calc_Max</a></strong>(const Values: TArray&lt;String&gt;; var Pos: <a href="CSVFile.TCSVPos.html">TCSVPos</a>): Double;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#Calc_Median">Calc_Median</a></strong>(const Values: TArray&lt;Double&gt;): Double;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#Calc_Min">Calc_Min</a></strong>(const Values: TArray&lt;String&gt;; var Pos: <a href="CSVFile.TCSVPos.html">TCSVPos</a>): Double;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#Calc_Mode">Calc_Mode</a></strong>(const Values: TArray&lt;Double&gt;): Double;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#Calc_Product">Calc_Product</a></strong>(const Values: TArray&lt;String&gt;): Double;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#Calc_Quartiles">Calc_Quartiles</a></strong>(const Values: TArray&lt;Double&gt;): TArray&lt;Double&gt;;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#Calc_Range">Calc_Range</a></strong>(const Values: TArray&lt;Double&gt;): Double;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#Calc_StandardDeviation">Calc_StandardDeviation</a></strong>(const Values: TArray&lt;String&gt;): Double;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#Calc_Sum">Calc_Sum</a></strong>(const Values: TArray&lt;String&gt;): Double;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#Calc_Variance">Calc_Variance</a></strong>(const Values: TArray&lt;String&gt;): Double;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#ConvertStringArrayToDoubleArray">ConvertStringArrayToDoubleArray</a></strong>(const Values: TArray&lt;String&gt;): TArray&lt;Double&gt;;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#EncodingToString">EncodingToString</a></strong>(Encoding: TEncoding): string;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#FormatMilliseconds">FormatMilliseconds</a></strong>(Milliseconds: Integer; IncludingIdentifier: Boolean = True; Identifiers: String = 'Sekunden|Minuten'): string;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#NormalizeDecimalSeparator">NormalizeDecimalSeparator</a></strong>(const Value: String; UseWindowsSettings: Boolean = True): String;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#ReadFileContent">ReadFileContent</a></strong>(Filename: String; MaxBytes: Integer): string;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code>function <strong><a href="CSVFile.html#RemoveSurroundingQuotes">RemoveSurroundingQuotes</a></strong>(const AField: string;FQuotes:Char): string;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Types"></span><h3 class="summary">Datentypen</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="itemcode"><code><strong><a href="CSVFile.html#TCalculationType">TCalculationType</a></strong> = (...);</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code><strong><a href="CSVFile.html#TCSVSortDirection">TCSVSortDirection</a></strong> = (...);</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code><strong><a href="CSVFile.html#TDataType">TDataType</a></strong> = (...);</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code><strong><a href="CSVFile.html#TLineBreakStyle">TLineBreakStyle</a></strong> = (...);</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code><strong><a href="CSVFile.html#TOnAfterReadRow">TOnAfterReadRow</a></strong> = procedure(RowIndex: Integer) of object;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code><strong><a href="CSVFile.html#TOnBeforeReadCell">TOnBeforeReadCell</a></strong> = procedure(RowIndex, ColIndex: Integer; var Value: String) of object;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code><strong><a href="CSVFile.html#TOnBeforeReadRow">TOnBeforeReadRow</a></strong> = procedure(RowIndex: Integer) of object;</code></td>
+</tr>
+<tr class="list2">
+<td class="itemcode"><code><strong><a href="CSVFile.html#TOnFoundEvent">TOnFoundEvent</a></strong> = procedure(Sender: TObject; Position: <a href="CSVFile.TCSVPos.html">TCSVPos</a>; Value: String) of object;</code></td>
+</tr>
+<tr class="list">
+<td class="itemcode"><code><strong><a href="CSVFile.html#TProgressEvent">TProgressEvent</a></strong> = procedure(Sender: TObject; ProcessedKB, MaxKB: Integer; Percent: Double) of object;</code></td>
+</tr>
+</table>
+<h2 class="description">Beschreibung</h2>
+<h3 class="detail">Funktionen und Prozeduren</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="Calc_Average"></span><code>function <strong>Calc_Average</strong>(const Values: TArray&lt;String&gt;): Double;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Funktion zur Berechnung des Durchschnitts (Mittelwert) der Werte im Array <br> Der Durchschnitt ist der Mittelwert aller Zahlen im Array. <br> Er wird berechnet, indem die Summe aller Werte durch die Anzahl der Werte im Array geteilt wird. <br> <br><strong>Anwendungsbeispiel:</strong> <br> - Bei der Analyse von Testergebnissen: Der Durchschnitt kann verwendet werden, um den Mittelwert der Schülerbewertungen in einer Prüfung zu berechnen. <br> - Bei der Berechnung des Durchschnittsgewinns: Wenn du den durchschnittlichen Gewinn eines Unternehmens über mehrere Jahre hinweg berechnen möchtest, kannst du diese Funktion verwenden. <br> - Bei der Analyse von Produktpreisen: Wenn du den Durchschnittspreis von Produkten berechnen möchtest, die auf einer Website verkauft werden, hilft dir diese Funktion, die mittleren Preise zu berechnen. <br></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="Calc_Count"></span><code>function <strong>Calc_Count</strong>(const Values: TArray&lt;String&gt;): Integer;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Funktion zur Berechnung der Anzahl der Werte im Array <br> Diese Funktion zählt die Anzahl der Elemente im Array, die nicht leer sind. <br> Leere Strings werden hierbei ignoriert. <br> <br><strong>Anwendungsbeispiel:</strong> <br> - Bei der Analyse von Umfragedaten: Wenn du die Anzahl der Antworten ermitteln möchtest, die in einem Umfragedatensatz ausgefüllt wurden (ohne leere Einträge zu berücksichtigen), kannst du diese Funktion verwenden. <br> - Bei der Berechnung der Teilnehmerzahl in einer Veranstaltung: Wenn du wissen möchtest, wie viele Personen eine Veranstaltung besucht haben (ohne leere Einträge zu zählen), nutzt du diese Funktion. <br> - Bei der Verarbeitung von Logdaten: Wenn du die Anzahl der Ereignisse oder Fehlerprotokolle ermitteln möchtest, kannst du diese Funktion verwenden, um nur die gefüllten Datensätze zu zählen und leere Logeinträge zu ignorieren. <br></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="Calc_IQR"></span><code>function <strong>Calc_IQR</strong>(const Values: TArray&lt;Double&gt;): Double;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Funktion zur Berechnung des Interquartilsabstands (IQR) <br> Der IQR ist die Differenz zwischen dem dritten (Q3) und dem ersten Quartil (Q1). <br> Der IQR misst die Streuung der mittleren 50% der Daten. <br> Der Interquartilsabstand hilft dabei, Ausreißer zu erkennen, da Werte außerhalb des IQR oft als Ausreißer betrachtet werden. <br> - Ein hoher IQR deutet auf eine große Streuung der mittleren 50% der Werte hin. <br> - Ein niedriger IQR deutet auf eine geringe Streuung der mittleren 50% der Werte hin. <br> <strong>Anwendungsbeispiel:</strong> <br> Bei einer Analyse von Prüfungsnoten: Wenn die Noten stark variieren, ist der IQR groß, was auf eine größere Streuung der mittleren 50% der Noten hinweist. <br> Bei einer Analyse von Gehältern in einer Firma: Ein kleiner IQR könnte darauf hindeuten, dass die mittleren 50% der Gehälter sehr ähnlich sind, während ein großer IQR auf eine größere Gehaltsdifferenz hindeutet. <br></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="Calc_Max"></span><code>function <strong>Calc_Max</strong>(const Values: TArray&lt;String&gt;; var Pos: <a href="CSVFile.TCSVPos.html">TCSVPos</a>): Double;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Funktion zur Berechnung des maximalen Werts im Array und zur Rückgabe der Position des Maximalwerts <br> Der maximale Wert ist der größte Wert im Array. <br> Die Position (Index) des Maximalwerts im Array wird ebenfalls zurückgegeben, um die genaue Lage des größten Werts im Array zu ermitteln. <br> <br><strong>Anwendungsbeispiel:</strong> <br> - Bei der Analyse von Verkaufszahlen: Wenn du den höchsten Umsatz in einer Liste von Verkäufen herausfinden möchtest, kannst du diese Funktion verwenden, um den **Maximalwert (z.B. höchster Umsatz)** sowie den **Tag (Position)** zu ermitteln, an dem dieser Umsatz erzielt wurde. <br> - Bei der Bestimmung des besten Ergebnisses in einem Test: Wenn du den **besten** Testergebnis (z.B. die höchste Punktzahl) und die Position (z.B. den Schüler) finden möchtest, kannst du diese Funktion verwenden, um das **höchste Ergebnis** und dessen **Position** zu ermitteln. <br> - In der Analyse von Aktienkursen: Wenn du den **höchsten** Kurs innerhalb einer bestimmten Periode ermitteln möchtest, liefert dir diese Funktion den **maximalen Kurs** und den **Index (Tag/Zeitraum)**, an dem dieser Preis erreicht wurde. <br></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="Calc_Median"></span><code>function <strong>Calc_Median</strong>(const Values: TArray&lt;Double&gt;): Double;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Funktion zur Berechnung des Median <br> Der Median ist der mittlere Wert eines Datensatzes, wenn er der Größe nach sortiert ist. <br> - Bei einer ungeraden Anzahl von Werten ist der Median der mittlere Wert. <br> - Bei einer geraden Anzahl von Werten ist der Median der Durchschnitt der beiden mittleren Werte. <br> Der Median ist robust gegenüber Ausreißern, da er nur die mittlere Position berücksichtigt und nicht die tatsächlichen Werte. <br> <br><strong>Anwendungsbeispiel:</strong> <br> Bei einer Analyse von Gehältern: Wenn du die Gehälter von Mitarbeitern hast, könnte der Median den Wert darstellen, bei dem die Hälfte der Mitarbeiter mehr und die andere Hälfte weniger verdient. <br> In einer Analyse von Umfrageergebnissen zur Zufriedenheit: Wenn 50% der Umfrageteilnehmer zufrieden sind, wäre der Median der Wert, bei dem genau die Hälfte der Befragten eine höhere und die andere Hälfte eine niedrigere Bewertung abgegeben hat. <br> Der Median ist besonders nützlich, wenn der Datensatz Ausreißer enthält, die den Durchschnitt verzerren könnten. <br></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="Calc_Min"></span><code>function <strong>Calc_Min</strong>(const Values: TArray&lt;String&gt;; var Pos: <a href="CSVFile.TCSVPos.html">TCSVPos</a>): Double;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Funktion zur Berechnung des minimalen Werts im Array und zur Rückgabe der Position des Minimalwerts <br> Der minimale Wert ist der kleinste Wert im Array. <br> Die Position (Index) des Minimalwerts im Array wird ebenfalls zurückgegeben, um die genaue Lage des kleinsten Werts im Array zu ermitteln. <br> <br><strong>Anwendungsbeispiel:</strong> <br> - Bei der Analyse von Temperaturen: Wenn du die niedrigste Temperatur in einem Datensatz suchst und wissen möchtest, an welchem Tag diese gemessen wurde, kannst du diese Funktion verwenden, um den **Minimalwert (z.B. die tiefste Temperatur)** sowie den **Tag (Position)** zu ermitteln. <br> - Bei der Bestimmung des günstigsten Preises: Wenn du die **günstigste** Preisoption in einer Liste von Produkten ermitteln möchtest, kannst du den minimalen Preis und dessen Position (Produktname oder Index) mit dieser Funktion herausfinden. <br> - In der mathematischen Optimierung: Wenn du den **kleinsten** Wert einer bestimmten Reihe von Messdaten ermitteln möchtest, um etwa den **besten Wert** für eine Optimierungsformel zu verwenden. <br></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="Calc_Mode"></span><code>function <strong>Calc_Mode</strong>(const Values: TArray&lt;Double&gt;): Double;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Funktion zur Berechnung des Modus (Mode) <br> Der Modus ist der Wert, der im Datensatz am häufigsten vorkommt. <br> Ein Datensatz kann keinen Modus, einen Modus oder mehrere Modi haben. <br> - Wenn mehrere Werte die gleiche maximale Häufigkeit haben, wird NaN zurückgegeben, um darauf hinzuweisen, dass es keinen eindeutigen Modus gibt. <br> <strong>Anwendungsbeispiel:</strong> <br> Bei einer Analyse von Produktbewertungen: Wenn man die Bewertung &quot;5&quot; am häufigsten sieht, ist 5 der Modus. <br> Bei einer Analyse von Prüfungsnoten: Wenn die Note &quot;1&quot; am häufigsten vorkommt, ist 1 der Modus. <br> Wenn mehrere Werte die gleiche Häufigkeit haben (z.B. 3 und 5 in einem Datensatz), wird NaN zurückgegeben, um zu kennzeichnen, dass es keinen eindeutigen Modus gibt. <br></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="Calc_Product"></span><code>function <strong>Calc_Product</strong>(const Values: TArray&lt;String&gt;): Double;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Funktion zur Berechnung des Produkts der Werte im Array <br> Das Produkt ist das Ergebnis der Multiplikation aller Werte im Array. <br> Wenn das Array leere oder ungültige Werte enthält, die keine Zahlen sind, werden diese ignoriert. <br> <br><strong>Anwendungsbeispiel:</strong> <br> - Bei der Berechnung des Gesamtgewichts eines Pakets: Wenn du das Gewicht jedes Teils des Pakets hast, kannst du das **Gesamtgewicht** berechnen, indem du die Einzelgewichte miteinander multiplizierst. <br> - Bei der Berechnung des Endpreises eines Produkts, wenn Rabatte in Form von Multiplikatoren gegeben sind: Zum Beispiel, wenn ein Produkt mit einem Rabattfaktor von 0,8 verkauft wird, multiplizierst du den Preis mit 0,8, um den Endpreis zu berechnen. <br> - In der Physik bei der Berechnung von Widerstand in einem parallelen Schaltkreis: Das Produkt von Widerstandswerten kann in bestimmten Formeln verwendet werden, um den Gesamtwiderstand zu ermitteln. <br> - Bei der Berechnung der kumulierten Wachstumsrate in der Finanzmathematik: Wenn du mehrere Wachstumsraten über Zeiträume hinweg hast, kannst du das Produkt dieser Raten verwenden, um den Gesamtwachstumsfaktor zu ermitteln. <br></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="Calc_Quartiles"></span><code>function <strong>Calc_Quartiles</strong>(const Values: TArray&lt;Double&gt;): TArray&lt;Double&gt;;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Funktion zur Berechnung der Quartile (Q1, Median, Q3) <br> Quartile teilen den Datensatz in vier gleich große Teile. <br> - Q1 (erstes Quartil) ist der Median der unteren Hälfte der Daten (25% der Werte liegen darunter). <br> - Q2 (zweites Quartil) ist der Median des gesamten Datensatzes (50% der Werte liegen darunter). <br> - Q3 (drittes Quartil) ist der Median der oberen Hälfte der Daten (75% der Werte liegen darunter). <br> Der Interquartilsabstand (IQR) ist die Differenz zwischen Q3 und Q1. <br> Er gibt an, wie weit die mittleren 50% der Werte auseinander liegen. <br><br> <strong>Anwendungsbeispiel:</strong> <br> Bei einer Analyse von Gehältern: Q1 zeigt die mittleren Gehälter der unteren 25 % der Mitarbeiter, der Median (Q2) gibt den &quot;durchschnittlichen&quot; Gehaltswert an, und Q3 zeigt die mittleren Gehälter der oberen 25 %. <br> Ein hoher Unterschied zwischen Q1 und Q3 (großer IQR) deutet auf eine größere Spreizung der Gehälter hin, während ein kleiner Unterschied auf eine geringere Gehaltsdifferenz hindeutet. <br> In einer Analyse von Prüfungsergebnissen zeigt Q1 die untersten 25% der Noten, Q2 den Median (also den mittleren Wert), und Q3 zeigt die oberen 25% der Noten. <br></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="Calc_Range"></span><code>function <strong>Calc_Range</strong>(const Values: TArray&lt;Double&gt;): Double;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Funktion zur Berechnung der Spannweite (Range) <br> Die Spannweite ist die Differenz zwischen dem größten und dem kleinsten Wert im Datensatz. <br> Sie zeigt die gesamte Streuung der Daten, berücksichtigt jedoch nicht die Verteilung der Werte. <br> Eine große Spannweite deutet darauf hin, dass die Daten weit auseinander liegen, während eine kleine Spannweite auf eine enge Streuung hinweist. <br> <br><strong>Anwendungsbeispiel:</strong> <br> Bei einer Analyse von Temperaturen: Wenn die höchste Temperatur 30°C und die niedrigste Temperatur 10°C beträgt, ist die Spannweite 20°C. <br> In einer Analyse von Prüfungsergebnissen: Wenn die besten Noten 1,0 und die schlechtesten Noten 5,0 sind, beträgt die Spannweite 4,0. <br> Die Spannweite kann hilfreich sein, um einen ersten Überblick über die Streuung der Daten zu bekommen, ist jedoch weniger genau als z.B. der Interquartilsabstand (IQR), da sie nur die Extremwerte berücksichtigt. <br></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="Calc_StandardDeviation"></span><code>function <strong>Calc_StandardDeviation</strong>(const Values: TArray&lt;String&gt;): Double;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Funktion zur Berechnung der Standardabweichung <br> Die Standardabweichung ist die Quadratwurzel der Varianz und gibt die durchschnittliche Abweichung der Werte vom Mittelwert an. <br> Sie ist ein Maß für die Streuung der Daten und hilft zu verstehen, wie stark die Werte um den Durchschnitt schwanken. <br> Eine kleinere Standardabweichung zeigt an, dass die Werte nahe am Mittelwert liegen, während eine größere Standardabweichung auf eine größere Streuung der Daten hinweist. <br> <br><strong>Anwendungsbeispiel:</strong> <br> - Bei der Analyse von Schülernoten: Eine geringe Standardabweichung zeigt, dass die meisten Schüler ähnliche Noten haben, während eine hohe Standardabweichung auf eine größere Variation in den Noten hinweist. <br> - Bei der Berechnung von Aktienkursen: Eine niedrige Standardabweichung zeigt eine geringe Volatilität der Kurse, während eine hohe Standardabweichung eine größere Schwankungsbreite der Kurse anzeigt. <br> - Bei der Messung von Produktionsfehlern: Eine niedrige Standardabweichung zeigt an, dass die Fehlerquote konstant ist, während eine hohe Standardabweichung auf unregelmäßige Fehler in der Produktion hinweist. <br></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="Calc_Sum"></span><code>function <strong>Calc_Sum</strong>(const Values: TArray&lt;String&gt;): Double;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Funktion zur Berechnung der Summe der Werte im Array <br> Die Summe ist das Ergebnis der Addition aller Werte im Array. <br> Wenn das Array leere oder ungültige Werte enthält, die keine Zahlen sind, werden diese ignoriert. <br> <br><strong>Anwendungsbeispiel:</strong> <br> - Bei der Analyse der Gesamtkosten eines Projekts: Die Summe der einzelnen Kostenpunkte ergibt die **Gesamtkosten** des Projekts. <br> - Bei der Berechnung der Gesamtzahl von verkauften Einheiten: Die Summe der Verkaufszahlen aus verschiedenen Regionen gibt die **Gesamtverkaufszahl** an. <br> - In einer Budgetübersicht: Wenn man die Ausgaben eines Monats summiert, erhält man die **Gesamtausgaben** für diesen Monat. <br> - Bei der Berechnung des Gesamtgehalts: Die Summe der einzelnen Gehälter der Mitarbeiter ergibt das **Gesamtgehalt** des Unternehmens. <br></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="Calc_Variance"></span><code>function <strong>Calc_Variance</strong>(const Values: TArray&lt;String&gt;): Double;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Funktion zur Berechnung der Varianz <br> Die Varianz misst, wie weit die einzelnen Werte eines Datensatzes im Durchschnitt vom Mittelwert (Durchschnitt) entfernt sind. <br> Eine hohe Varianz bedeutet, dass die Werte weit vom Durchschnitt entfernt sind, während eine niedrige Varianz darauf hinweist, dass die Werte nahe beieinander liegen. <br> Die Varianz ist ein Maß für die **Streuung** der Daten. Sie hilft zu verstehen, wie stark die Werte variieren oder schwanken. <br> <br><strong>Anwendungsbeispiel:</strong> <br> - Bei der Analyse von Investitionsrenditen: Eine hohe Varianz zeigt, dass die Renditen stark schwanken, was auf eine größere Unsicherheit oder Risiko hindeutet. Eine niedrige Varianz zeigt stabile und gleichmäßige Renditen an. <br> - Bei der Qualitätskontrolle: Eine hohe Varianz in den Produktionsfehlern deutet darauf hin, dass die Fehlerquote stark variiert, während eine niedrige Varianz darauf hinweist, dass die Qualität konstant ist. <br> - Bei der Analyse von Schülernoten: Eine hohe Varianz bedeutet, dass die Noten weit auseinanderliegen (es gibt viele sehr gute und sehr schlechte Noten), während eine niedrige Varianz darauf hinweist, dass die Noten nahe beieinander liegen. <br></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="ConvertStringArrayToDoubleArray"></span><code>function <strong>ConvertStringArrayToDoubleArray</strong>(const Values: TArray&lt;String&gt;): TArray&lt;Double&gt;;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Funktion zur Konvertierung von TArray&lt;String&gt; in TArray&lt;Double&gt; <br> Diese Funktion versucht, jeden String im Array in einen Double-Wert zu konvertieren. <br> Falls die Konvertierung fehlschlägt, wird NaN zurückgegeben, um ungültige Daten zu kennzeichnen. <br></p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="EncodingToString"></span><code>function <strong>EncodingToString</strong>(Encoding: TEncoding): string;</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="FormatMilliseconds"></span><code>function <strong>FormatMilliseconds</strong>(Milliseconds: Integer; IncludingIdentifier: Boolean = True; Identifiers: String = 'Sekunden|Minuten'): string;</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="NormalizeDecimalSeparator"></span><code>function <strong>NormalizeDecimalSeparator</strong>(const Value: String; UseWindowsSettings: Boolean = True): String;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Normalisiert den Dezimaltrennzeichen für die gegebene Zahl</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="ReadFileContent"></span><code>function <strong>ReadFileContent</strong>(Filename: String; MaxBytes: Integer): string;</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="RemoveSurroundingQuotes"></span><code>function <strong>RemoveSurroundingQuotes</strong>(const AField: string;FQuotes:Char): string;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Entfernt umgebende Anführungszeichen von einem Feld</p>
+</td></tr>
+</table>
+<h3 class="detail">Datentypen</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="TCalculationType"></span><code><strong>TCalculationType</strong> = (...);</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;<h6 class="description_section">Werte</h6>
+<ul>
+<li>
+<span id="ctAverage">ctAverage</span></li>
+<li>
+<span id="ctCount">ctCount</span></li>
+<li>
+<span id="ctMax">ctMax</span></li>
+<li>
+<span id="ctMin">ctMin</span></li>
+<li>
+<span id="ctProduct">ctProduct</span></li>
+<li>
+<span id="ctSum">ctSum</span>: Berechnungstypen: Durchschnitt, Anzahl, Maximalwert, Minimalwert, Produkt, Summe</li>
+</ul>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="TCSVSortDirection"></span><code><strong>TCSVSortDirection</strong> = (...);</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;<h6 class="description_section">Werte</h6>
+<ul>
+<li>
+<span id="sdCSVAscending">sdCSVAscending</span></li>
+<li>
+<span id="sdCSVDescending">sdCSVDescending</span>: Sortierrichtung für CSV: Aufsteigend oder Absteigend</li>
+</ul>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="TDataType"></span><code><strong>TDataType</strong> = (...);</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;<h6 class="description_section">Werte</h6>
+<ul>
+<li>
+<span id="dtCurrency">dtCurrency</span></li>
+<li>
+<span id="dtDate">dtDate</span></li>
+<li>
+<span id="dtDateTime">dtDateTime</span></li>
+<li>
+<span id="dtDouble">dtDouble</span></li>
+<li>
+<span id="dtInteger">dtInteger</span></li>
+<li>
+<span id="dtString">dtString</span>: Datentypen: Währung, Datum, Datum/Zeit, Fließkommazahl, Ganzzahl, String</li>
+</ul>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="TLineBreakStyle"></span><code><strong>TLineBreakStyle</strong> = (...);</code></td>
+</tr>
+<tr><td colspan="1">
+&nbsp;<h6 class="description_section">Werte</h6>
+<ul>
+<li>
+<span id="lbsMac">lbsMac</span></li>
+<li>
+<span id="lbsNone">lbsNone</span></li>
+<li>
+<span id="lbsUnix">lbsUnix</span></li>
+<li>
+<span id="lbsWindows">lbsWindows</span>: Zeilenumbruchstile: Mac, Keine, Unix, Windows</li>
+</ul>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="TOnAfterReadRow"></span><code><strong>TOnAfterReadRow</strong> = procedure(RowIndex: Integer) of object;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Event, das nach dem Lesen einer Zeile ausgelöst wird</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="TOnBeforeReadCell"></span><code><strong>TOnBeforeReadCell</strong> = procedure(RowIndex, ColIndex: Integer; var Value: String) of object;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Event, das vor dem Lesen einer Zelle ausgelöst wird</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="TOnBeforeReadRow"></span><code><strong>TOnBeforeReadRow</strong> = procedure(RowIndex: Integer) of object;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Event, das vor dem Lesen einer Zeile ausgelöst wird</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="TOnFoundEvent"></span><code><strong>TOnFoundEvent</strong> = procedure(Sender: TObject; Position: <a href="CSVFile.TCSVPos.html">TCSVPos</a>; Value: String) of object;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Event, das bei einem Suchtreffer ausgelöst wird</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="itemcode"><span id="TProgressEvent"></span><code><strong>TProgressEvent</strong> = procedure(Sender: TObject; ProcessedKB, MaxKB: Integer; Percent: Double) of object;</code></td>
+</tr>
+<tr><td colspan="1">
+<p>
+Event, das den Fortschritt eines Vorgangs anzeigt</p>
+</td></tr>
+</table>
+<hr><span class="appinfo"><em>Erstellt mit <a href="https://pasdoc.github.io/">PasDoc 0.16.0</a>. </em>
+</span>
+</div></div></body></html>

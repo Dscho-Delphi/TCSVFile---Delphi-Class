@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>TCSVFile: class_Frontend_Output_TListView: Klasse TFrontend_Output_TListView</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="PasDoc 0.16.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+
+<link rel="StyleSheet" type="text/css" href="pasdoc.css">
+</head>
+<body>
+<div class="container"><div class="navigation">
+<h2><a href="index.html">TCSVFile</a></h2><ul><li><a href="AllUnits.html">Units</a></li><li><a href="ClassHierarchy.html">Klassenhierarchie</a></li><li><a href="AllClasses.html">Klassen, Interfaces und Objects</a></li><li><a href="AllTypes.html">Datentypen</a></li><li><a href="AllVariables.html">Variablen</a></li><li><a href="AllConstants.html">Konstanten</a></li><li><a href="AllFunctions.html">Funktionen und Prozeduren</a></li><li><a href="AllIdentifiers.html">Bezeichner</a></li><li><form class="search-form" action="tipue_results.html"><div class="search-input"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required><div class="search-button"><input type="button" id="tipue_search_button" onclick="this.form.submit();"></div></div></form>
+<div style="clear: both"></div>
+</li></ul></div><div class="content">
+<span id="TFrontend_Output_TListView"></span><h1 class="cio">Klasse TFrontend_Output_TListView</h1>
+<div class="sections">
+<div class="one_section"><a class="section" href="#PasDoc-Description">Beschreibung</a></div><div class="one_section"><a class="section" href="#PasDoc-Hierarchy">Hierarchie</a></div><div class="one_section"><a class="section" href="#PasDoc-Fields">Felder</a></div><div class="one_section"><a class="section" href="#PasDoc-Methods">Methoden</a></div><div class="one_section"><a class="section" href="#PasDoc-Properties">Eigenschaften</a></div></div>
+<span id="PasDoc-Description"></span><h2 class="unit">Unit</h2>
+<p class="unitlink">
+<a href="class_Frontend_Output_TListView.html">class_Frontend_Output_TListView</a></p>
+<h2 class="declaration">Deklaration</h2>
+<p class="declaration">
+<code>type TFrontend_Output_TListView = class(<a class="normal" href="CSVFile.TFrontend_Output_Base.html">TFrontend_Output_Base</a>)</code></p>
+<h2 class="description">Beschreibung</h2>
+<p>
+TFrontend_Output_TListView ist eine Klasse, die die Ausgabe von CSV-Daten in einem TListView verwaltet.</p>
+<span id="PasDoc-Hierarchy"></span><h2 class="hierarchy">Hierarchie</h2>
+<ul class="hierarchy"><li class="ancestor">TObject</li>
+<li class="ancestor"><a class="normal" href="CSVFile.TFrontend_Output_Base.html">TFrontend_Output_Base</a></li>
+<li class="thisitem">TFrontend_Output_TListView</li></ul><h2 class="overview">Übersicht</h2>
+<span id="PasDoc-Fields"></span><h3 class="summary">Felder</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#FIgnoreHeader">FIgnoreHeader</a></strong>: Boolean;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><code><strong><a href="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#FListView">FListView</a></strong>: TListView;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Methods"></span><h3 class="summary">Methoden</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>constructor <strong><a href="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#Create">Create</a></strong>(ACSVFile: <a href="CSVFile.TCSVFile.html">TCSVFile</a>; AListView: TListView); reintroduce;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#Initialize">Initialize</a></strong>; override;</code></td>
+</tr>
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#Update">Update</a></strong>; override;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>procedure <strong><a href="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#UpdateCell">UpdateCell</a></strong>(ARow, ACol: Integer); override;</code></td>
+</tr>
+</table>
+<span id="PasDoc-Properties"></span><h3 class="summary">Eigenschaften</h3>
+<table class="summary wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#IgnoreHeader">IgnoreHeader</a></strong>: Boolean read <a href="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#FIgnoreHeader">FIgnoreHeader</a> write <a href="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#FIgnoreHeader">FIgnoreHeader</a>;</code></td>
+</tr>
+<tr class="list2">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><code>property <strong><a href="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#ListView">ListView</a></strong>: TListView read <a href="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#FListView">FListView</a>;</code></td>
+</tr>
+</table>
+<h2 class="description">Beschreibung</h2>
+<h3 class="detail">Felder</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FIgnoreHeader"></span><code><strong>FIgnoreHeader</strong>: Boolean;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Referenz auf das TListView</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="private.gif" alt="Private" title="Private"></a></td>
+<td class="itemcode"><span id="FListView"></span><code><strong>FListView</strong>: TListView;</code></td>
+</tr>
+<tr><td colspan="2">
+&nbsp;</td></tr>
+</table>
+<h3 class="detail">Methoden</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Create"></span><code>constructor <strong>Create</strong>(ACSVFile: <a href="CSVFile.TCSVFile.html">TCSVFile</a>; AListView: TListView); reintroduce;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Flag, ob die Header-Zeile ignoriert werden soll Konstruktor der Klasse, der eine CSV-Datei und ein ListView akzeptiert</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Initialize"></span><code>procedure <strong>Initialize</strong>; override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Initialisierungsmethode für die Klasse</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="Update"></span><code>procedure <strong>Update</strong>; override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Methode zur Aktualisierung der gesamten Ausgabe</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="UpdateCell"></span><code>procedure <strong>UpdateCell</strong>(ARow, ACol: Integer); override;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Aktualisierungsmethode für ein bestimmtes Item</p>
+</td></tr>
+</table>
+<h3 class="detail">Eigenschaften</h3>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="IgnoreHeader"></span><code>property <strong>IgnoreHeader</strong>: Boolean read <a href="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#FIgnoreHeader">FIgnoreHeader</a> write <a href="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#FIgnoreHeader">FIgnoreHeader</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Referenz auf das TListView</p>
+</td></tr>
+</table>
+<table class="detail wide_list">
+<tr class="list">
+<td class="visibility"><a href="legend.html"><img  src="public.gif" alt="Public" title="Public"></a></td>
+<td class="itemcode"><span id="ListView"></span><code>property <strong>ListView</strong>: TListView read <a href="class_Frontend_Output_TListView.TFrontend_Output_TListView.html#FListView">FListView</a>;</code></td>
+</tr>
+<tr><td colspan="2">
+<p>
+Eigenschaften zum Zugriff auf private Felder</p>
+</td></tr>
+</table>
+<hr><span class="appinfo"><em>Erstellt mit <a href="https://pasdoc.github.io/">PasDoc 0.16.0</a>. </em>
+</span>
+</div></div></body></html>
