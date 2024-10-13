@@ -13,42 +13,7 @@ For more detailed information, [visit the official documentation (only german at
 - **Efficient Searching**: Offers functions to search and replace data within specific columns, with support for regular expressions.
 - **Data Manipulation**: Supports operations such as sorting, copying columns, inserting rows/columns, and swapping rows/columns.
 
-## Properties
 
-- **`Autoselect`**: Enables or disables automatic selection behavior when interacting with the data.
-- **`Cell[Row, Col]`**: Access or modify the content of a specific cell.
-- **`Changed[Row, Col]`**: Check or mark if a cell has been modified.
-- **`ColCount[Row]`**: Returns the number of columns in a specified row.
-- **`Data`**: Provides access to the underlying list of CSV data.
-- **`Encoding`**: Specifies the file encoding (default is UTF-8).
-- **`LineBreakStyle`**: Defines the line break style for the CSV file (Windows, Unix, etc.).
-- **`RowCount`**: Returns the total number of rows in the CSV file.
-- **`Separator`**: Specifies the column separator used in the CSV file.
-- **`Size`**: Returns the size of the CSV data (number of cells).
-- **`UseFastParsing`**: Enables or disables optimized parsing for large files.
-- **`UseHeader`**: Indicates whether the first row is treated as a header.
-
-## Methods
-
-- **`Create(AEncoding: TEncoding = nil; ASeparator: Char = ',')`**: Constructor that initializes the CSV file with the specified encoding and delimiter (defaults: UTF-8 and comma).
-- **`Clear()`**: Clears all data and resets change tracking.
-- **`ParseCSVContent(Content: string)`**: Parses CSV data from a string.
-- **`LoadFromFile(FileName: string)`**: Loads CSV data from a file.
-- **`SaveToFile(FileName: string)`**: Saves the current CSV data to a file.
-- **`Search(SearchText: string; Column: Integer = -1; RegexOn: Boolean = False)`**: Searches for a specific text in a column or the entire file.
-- **`ExportAsJSON(Filename: string)`**: Exports the CSV data as a JSON file.
-- **`ExportAsXLSX(Filename: string)`**: Exports the CSV data to an Excel file.
-- **`InsertRow(ColumnCount: Integer; Position: Integer)`**: Inserts a new row at a specified position.
-- **`DeleteRow(Index: Integer)`**: Deletes a row from the CSV file.
-- **`CombineCols(Col: Integer; BlankString: string = '')`**: Combines all cells in a column into a single cell.
-- **`DetectDataType(Value: string)`**: Detects the data type of a cell’s value (e.g., string, number).
-- **`ClearChanges()`**: Clears the list of tracked changes.
-
-## Events
-
-- **`OnAfterReadRow`**: Triggered after reading a row from the CSV.
-- **`OnBeforeReadCell`**: Triggered before reading each cell.
-- **`OnProgress`**: Reports the progress of operations like file loading or parsing.
 
 ## Example Usage
 
