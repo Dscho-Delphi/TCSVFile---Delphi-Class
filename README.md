@@ -1,6 +1,8 @@
 # TCSVFile - CSV File Handling Class for Delphi12
 
-The `TCSVFile` class is designed to simplify reading, writing, and manipulating CSV files in Delphi/Pascal applications. It offers a variety of methods to parse, search, modify, and export CSV data. This class supports custom delimiters, encodings, and provides extensive functionality for managing changes and performing searches within the CSV file.
+The `TCSVFile` class is designed to simplify reading, writing, and manipulating CSV files in Delphi/Pascal applications. It offers a variety of methods to parse, search, modify, and export CSV data. This class supports custom delimiters, encodings, and provides extensive functionality for managing changes and performing searches within the CSV file.  
+For more detailed information, [visit the official documentation (only german at the moment)](https://www.tmedia-agentur.de/software-delphi/delphi-komponenten-von-tmedia/delphi-klasse-tcsvfile/).
+
 
 ## Key Features
 
